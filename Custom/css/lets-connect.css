@@ -1,0 +1,70 @@
+* {
+    font-weight: bold;
+}
+
+.lets-connect,
+.apprenticeship {
+    padding: 15%;
+}
+
+.social-icons,
+.social-icons-bottom {
+    text-align: center;
+}
+
+
+
+.social-icons > i,
+.social-icons-bottom > a > i {
+
+    font-size: 32px;
+    padding: 2%;
+}
+
+.social-icons-bottom > a > i {
+    font-size: 48px;
+    color: black;
+}
+
+.connect-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+
+}
+
+.connect-wrapper > .connect-wrap1,
+.connect-wrap2,
+.connect-wrap3 {
+    width: 100%;
+    background-color: #EEEEEE;
+
+}
+
+
+
+.connect-wrapHeads {
+    font-weight: bolder;
+    text-align: center;
+}
+
+.connect-subwrap {
+    padding: 5%;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .connect-wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+
+    }
+
+
+
+}

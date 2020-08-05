@@ -1,0 +1,158 @@
+* {
+    font-weight: bold;
+}
+
+.become-member {
+    padding: 15%;
+    width: 100%;
+}
+
+.become-member-title {
+    font-size: 200%;
+    width: 100%;
+}
+
+.eligibility-para,
+.why-member-para {
+    padding: 3% 25% 3% 25%;
+    text-align: center
+}
+
+.member-eligibility-title,
+.membership-process-title {
+    color: navy;
+}
+
+.why-member {
+    width: 100%;
+    padding: 5%;
+}
+
+.why-member-title,
+.membership-process-title {
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+    position: relative;
+    display: block;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+/*Grid code*/
+
+.wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+
+}
+
+.wrapper > .wrap1,
+.wrap2,
+.wrap3 {
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 3%;
+}
+
+.wrap2 {
+    height: 60%;
+}
+
+
+.wrapHeads {
+    font-weight: bolder;
+}
+
+.wrapSubHead {
+    font-weight: bold;
+}
+
+.wrapHeads,
+.wrapSubHead {
+    text-align: center;
+    color: darkblue;
+
+}
+
+.membership {
+    padding: 10%;
+    list-style: 2px;
+}
+
+.subList {
+
+    list-style: inside;
+}
+
+.membership > li {
+    font-weight: 200;
+    padding-top: 15%;
+    font-size: 110%;
+}
+
+.subList > li {
+    font-weight: 800;
+    padding: 0;
+    font-size: 85%;
+    list-style-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='7' height='7' viewBox='-1 -1 2 2'><circle r='0.5' /></svg>");
+}
+
+b {
+    font-weight: bolder;
+}
+
+.form-fee {
+    text-align: center;
+    padding: 0 15% 5% 15%;
+    font-weight: bold;
+
+}
+
+.form-link,
+.form-link:visited {
+    color: dodgerblue;
+}
+
+.membership {
+    padding-top: 0;
+}
+
+.membershipDetail {
+    padding-left: 10%;
+}
+
+.process-para {
+    padding: 5%;
+    text-align: center;
+}
+
+.fullMember-title,
+.associateMember-title,
+.corporateMember-title {
+    color: navy;
+
+}
+
+.membershipDetailList > li {
+    padding: 1% 25% 1% 0;
+    font-size: 100%;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+
+    }
+
+    .wrap2 {
+        height: 100%;
+    }
+
+}

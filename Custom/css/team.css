@@ -1,0 +1,166 @@
+.team {
+    width: 100%;
+    padding: 15%;
+}
+
+.team-about {
+    padding-top: 5%;
+    font-weight: 500;
+}
+
+.team-title,
+.become-member-title,
+.member-eligibility-title {
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.team-para {
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.team-leads {
+    padding-top: 3%;
+    background: white;
+}
+
+.lead {
+    width: 100%;
+    padding: 5%;
+}
+
+.name {
+    font-size: 100%;
+}
+
+.ph,
+.em {
+    font-size: 14px;
+}
+
+.boardOfDirectors {
+    color: #314572;
+    padding-bottom: 5%;
+    font-weight: bolder;
+}
+
+.members {
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: 120%;
+
+}
+
+.boardMembers {
+    text-align: center;
+
+}
+
+.bList {
+    padding: 2%;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+/*leads temporary code*/
+
+.ld {
+    padding: 2%;
+}
+
+.contact-box {
+    background-color: #ffffff;
+    border: 0px solid #e7eaec;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-box > a {
+    color: inherit;
+}
+
+.contact-box.center-version {
+    border: px solid #e7eaec;
+    padding: 0;
+}
+
+.contact-box.center-version > a {
+    display: block;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-box.center-version > a img {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-box.center-version address {
+    margin-bottom: 0;
+}
+
+.contact-box .contact-box-footer {
+    text-align: center;
+    background-color: #ffffff;
+    border-top: 1px solid #e7eaec;
+    padding: 15px 20px;
+}
+
+.md-skin .contact-box {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    border: none;
+}
+
+.vertical-container::after {
+    /* clearfix */
+    content: '';
+    display: table;
+    clear: both;
+}
+
+img {
+    border: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+img.img-circle {
+    width: 70%;
+    height: 70%;
+    margin-bottom: 5px;
+}
+
+.job-position {
+    padding-top: 5%;
+    font-weight: 600;
+    color: #314572;
+}
+
+
+
+/*leads temporary code*/
+
+@media only screen and (max-width: 768px) {
+
+    .contact-box {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 70%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}

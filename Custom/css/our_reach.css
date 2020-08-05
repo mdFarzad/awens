@@ -1,0 +1,341 @@
+.our-reach-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    grid-gap: 1em;
+
+}
+
+.reach-tree {
+    text-align: right;
+
+}
+
+
+
+.reach-title-head {
+    width: 100%;
+    padding: 10% 0 0 5%;
+
+}
+
+.reach-title {
+    width: 100%;
+    font-size: 200%;
+    font-weight: bolder;
+    padding-top: 5%;
+}
+
+.reach-title-para1 {
+    font-weight: bold;
+    padding: 5% 0 0 20%;
+}
+
+.reach-title-para2 {
+    font-weight: bold;
+    padding: 2% 0 0 40%;
+}
+
+
+
+/*body code starts*/
+
+.reaches {
+    background-color: white;
+    padding: 3%;
+}
+
+.reaches-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+
+}
+
+.reaches-wrap1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-gap: 1em;
+    padding-bottom: 0;
+}
+
+.wei,
+.cienfuegos,
+.ceed,
+.bbi {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+
+.wei {
+    transition: width 2s, height 2s;
+}
+.wei:hover {
+    width: 120%;
+}
+
+.reaches-heads {
+    text-align: center;
+    font-weight: bold;
+}
+
+.wei-logo,
+.iswN-logo,
+.lae-logo,
+.cuba-logo,
+.ean-logo,
+.jamaica-logo,
+.cienfuegos-logo,
+.nds-logo,
+.usw-logo,
+.ceed-logo,
+.wib-logo,
+.bbi-logo,
+.apprentice-ns-logo {
+
+    width: 100%;
+    padding: 5%;
+
+}
+
+.wei-para,
+.iswN-para,
+.lae-para,
+.cuba-para,
+.ean-para,
+.jamaica-para,
+.cienfuegos-para,
+.nds-para,
+.wei-bottom,
+.usw-para,
+.ceed-para,
+.wib-para,
+.bbi-para,
+.apprentice-ns-para {
+    width: 100%;
+    font-size: 70%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nds-para,
+.wei-bottom {
+    text-align: center;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    padding-bottom: 1%;
+}
+
+.wei,
+.cienfuegos,
+.ceed,
+.bbi {
+    border: 1px solid gray;
+    padding: 5%;
+    box-shadow: 1px 1px 1px 1px gray;
+
+}
+
+.cienfuegos {
+    margin-top: 5%;
+    width: 100%;
+
+}
+
+.isw-network,
+.nds {
+    width: 80%;
+    margin: 10% 10% 10% 10%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 1em;
+    border: 1px solid gray;
+    padding: 5%;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.lae,
+.cuba,
+.ean,
+.jamaica,
+.usw,
+.wib,
+.apprentice-ns {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+    border: 1px solid gray;
+    padding: 5%;
+    box-shadow: 1px 1px 1px 1px gray;
+    margin: 10%;
+    margin-top: 20%;
+    margin-bottom: 0;
+
+}
+
+
+
+.usw {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.reaches-wrap2 {
+    margin-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 1em;
+}
+
+.iswN-desc {
+    padding-top: 30%;
+}
+
+.cuba-desc,
+.ean-desc,
+.jamaica-desc,
+.usw-desc,
+.apprentice-ns-desc {
+    margin-top: 40%;
+    padding-bottom: 40%;
+    height: 100%;
+}
+
+.wrap2-sec2 {
+    padding-top: 0;
+}
+
+.jamaica {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.reaches-wrap3 {
+    padding: 0%;
+    margin-top: 0;
+    padding-top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1em;
+}
+
+.ceed,
+.bbi {
+    margin-bottom: 5%;
+    width: 80%;
+    text-align: center;
+    margin-right: 10%;
+    padding: 10%;
+}
+
+.wib {
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 15%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+
+/*body code ends */
+
+@media only screen and (max-width: 768px) {
+
+
+    .reaches {
+        margin-left: 0;
+        padding-left: 0;
+        margin-right: 5%;
+    }
+
+    .our-reach-wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+
+    }
+
+    .reach-tree {
+        text-align: center;
+    }
+
+    .reach-title,
+    .reach-title-para1,
+    .reach-title-para2 {
+
+        padding: 0;
+        text-align: center;
+    }
+
+    .reaches-wrap1,
+    .reaches-wrap2,
+    .reaches-wrap3 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+    }
+
+    .wei,
+    .isw-network,
+    .lae,
+    .cuba,
+    .ean,
+    .jamaica,
+    .cienfuegos,
+    .nds,
+    .usw,
+    .ceed,
+    .wib,
+    .bbi,
+    .apprentice-ns {
+        text-align: center;
+        margin: 5%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+    }
+
+    .wei {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+    }
+
+    .wei-bottom {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .nds-para {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .isw-network {
+        margin-top: 5%;
+    }
+
+    .reaches-wrap3 {
+        padding: 0;
+    }
+
+    .container {
+        padding-right: 5%;
+        margin-right: 5%;
+    }
+
+
+}

@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.options {
+    width: 100%;
+}
+
+.navbar-nav {
+    width: 100%;
+    display: block;
+    background-color: #B1B1B1;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.navbar-nav,
+.dropbtn {
+
+    color: #B1B1B1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+.logo {
+
+    padding-top: 1%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-right: 0;
+}
+
+.nav-item {
+    width: 100%;
+    position: relative;
+    padding: 3%;
+
+}
+
+.navbar-nav li a.nav-link.dropdown-toggle:hover {
+    color: black;
+    background-color: none;
+}
+
+.navbar-nav li a.nav-link.dropdown-toggle.active {
+    color: white;
+    background-color: #B1B1B1;
+}
+
+.navbar {
+    background-color: #B1B1B1;
+    padding: 0;
+
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    width: 100%;
+    height: 50%;
+    color: white;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+
+    color: black;
+
+}
+
+.dropdown-menu {
+    background-color: #B1B1B1;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+
+.navbar-nav li a.nav-link.dropdown-toggle.active:hover {
+    color: black;
+}
+
+.options {
+    padding-left: 5%;
+
+}
+
+h3 {
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+
+p {
+    letter-spacing: 1px;
+}
+
+/*footer css*/
+
+.footerBlock {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 1em;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #000000;
+}
+
+.footerButtonDiv {
+    text-align: center;
+    align-items: center;
+}
+
+
+.footerButton {
+    width: 15%;
+    margin-left: 42%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #E8CF2D;
+    border-color: #E8CF2D;
+
+}
+
+.footerTable {
+    text-align: center;
+    color: white;
+    padding: 10%;
+    font-weight: 100;
+    font-size: 110%;
+    padding-bottom: 0;
+    letter-spacing: 5px;
+}
+
+/*.footerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    margin-bottom: 5%;
+    margin-left: 30%;
+    border-radius: 4rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #E8CF2D;
+    border-color: #E8CF2D;
+
+}*/
+
+.btn-primary:hover,
+.btn-primary:visited,
+.btn-primary:active,
+.btn-primary:focus {
+
+    color: white;
+    background-color: #E8CF2D;
+    border-color: #E8CF2D;
+    box-shadow: none;
+}
+
+.connect {
+    text-align: center;
+    padding: 2%;
+    display: none;
+}
+
+.contact {
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.contact:hover {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.num:hover {
+    text-decoration: underline;
+}
+
+.horizontal {
+    text-align: center;
+    padding-left: 15%;
+}
+
+hr.line {
+    border: 1px solid white;
+    width: 80%;
+}
+
+.footerLists {
+    width: 100%;
+    padding: 5%;
+    padding-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 0;
+}
+
+.flist {
+    color: white;
+    list-style: none;
+}
+
+.fl {
+    padding-bottom: 5%;
+    color: white;
+}
+
+.fl:hover {
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+
+.fl.a {
+    color: #314572;
+}
+
+
+.social {
+    padding-left: 15%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
+.copyright {
+    padding-top: 5%;
+    color: #E8CF2D;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footerButton {
+        width: 40%;
+        margin-left: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 4rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #E8CF2D;
+        border-color: #E8CF2D;
+
+    }
+
+    .isHeadButton {
+        width: 100%;
+        border-radius: 0rem;
+    }
+
+    .connect {
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+        display: none;
+    }
+}
