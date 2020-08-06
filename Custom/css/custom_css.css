@@ -121,7 +121,7 @@ p {
 
 
 .footer {
-    background-color: #000000;
+    background-color: #B1B1B1;
 }
 
 .footerButtonDiv {
@@ -207,12 +207,12 @@ p {
 
 .horizontal {
     text-align: center;
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
 hr.line {
     border: 1px solid white;
-    width: 80%;
+    width: 90%;
 }
 
 .footerLists {
@@ -230,7 +230,8 @@ hr.line {
 
 .fl {
     padding-bottom: 5%;
-    color: white;
+    color: grey;
+    font-weight: lighter;
 }
 
 .fl:hover {
@@ -239,7 +240,10 @@ hr.line {
 }
 
 .fl.a {
-    color: #314572;
+    /*color: #314572;*/
+    color: white;
+    font-size: 120%;
+    font-weight: lighter;
 }
 
 
@@ -251,10 +255,38 @@ hr.line {
 }
 
 .copyright {
-    padding-top: 5%;
-    color: #E8CF2D;
+    padding: 10% 10% 10% 0%;
+    text-align: center;
+    color: white;
 }
 
+
+/*New footer code*/
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-gap: 1em;
+}
+
+.fwrap1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0em;
+    border-right: 1px solid white;
+    height: 100%;
+}
+
+.fwrap3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0em;
+}
+
+.flist {
+    text-align: center;
+}
+
+/*new footer code ends*/
 @media only screen and (max-width: 768px) {
 
     .footerButton {
@@ -282,5 +314,30 @@ hr.line {
         text-align: center;
         padding: 2%;
         display: none;
+    }
+
+
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+
+    }
+
+    .fwrap1,
+    .fwrap2 {
+        text-align: center;
+        padding-right: 10%;
+    }
+
+    .fwrap1 {
+        border-right: none;
+    }
+
+    .fwrap3 {
+        display: grid;
+        grid-template-columns: 34% 33% 33%;
+        grid-gap: 0em;
+        padding-left: 10%;
     }
 }

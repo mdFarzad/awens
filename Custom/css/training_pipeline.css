@@ -1,0 +1,131 @@
+.process-pipeline-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 28%;
+    grid-gap: 0em;
+}
+
+.pipe1,
+.pipe2,
+.pipe3,
+.pipe4 {
+    width: 100%;
+    height: 130px;
+}
+
+.pipe1 {
+    display: inline;
+}
+
+.project_planning_list_ul,
+.drafting_list_ul,
+.issuing_rfp_list_ul,
+.awarding_contract_list_ul,
+.project_planning_list,
+.drafting_list,
+.issuing_rfp_list,
+.awarding_contract_list {
+    padding: 2%;
+    padding-left: 10%;
+    color: white;
+    width: 100%;
+
+}
+
+.project_planning_list,
+.drafting_list,
+.issuing_rfp_list,
+.awarding_contract_list {
+    margin-left: 5%;
+    padding-right: 5%;
+    font-size: 90%;
+
+
+}
+
+.project_planning_list_ul,
+.drafting_list_ul,
+.issuing_rfp_list_ul,
+.awarding_contract_list_ul {
+    border: 1px solid black;
+    display: none;
+    background-color: #d1b30e;
+    height: 250px;
+}
+
+.arrow {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    grid-gap: 0em;
+}
+
+.fa-arrow-right {
+    padding: 100% 30% 0% 30%;
+
+    margin-right: 10%;
+
+}
+
+.fa-arrow-down {
+    display: none;
+}
+
+.instructors {
+    grid-template-columns: 60% 40%;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .process-pipeline-wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+    }
+
+    .project_planning_list,
+    .drafting_list,
+    .issuing_rfp_list,
+    .awarding_contract_list {
+
+        font-size: 120%;
+
+
+    }
+
+    .arrow {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 99% 1%;
+        grid-gap: 1em;
+    }
+
+    .fa-arrow-right {
+        display: none;
+    }
+
+    .fa-arrow-down {
+        display: block;
+        margin-left: 46%;
+    }
+}
+
+@media only screen and (width: 1024px) {
+    .arrow {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        grid-gap: 0em;
+    }
+
+    .project_planning_list,
+    .drafting_list,
+    .issuing_rfp_list,
+    .awarding_contract_list {
+        font-size: 70%;
+    }
+
+
+}

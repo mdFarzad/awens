@@ -1,0 +1,287 @@
+.apprenticeship {
+    padding-bottom: 10%;
+}
+
+.bckgrnd2 {
+    padding-top: 0;
+}
+
+.apprenticeship-div,
+.tutoring_process-div {
+    text-align: center;
+
+}
+
+.apprenticeship-para {
+    padding: 2% 20% 0 20%;
+}
+
+.apprenticeship-div-wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0em;
+}
+
+
+.apprenticeship-div-image {
+    grid-column: 1 / span 3;
+    grid-row: row 1 / span 2;
+    background: linear-gradient(to left, #6441a5, #2a0845);
+}
+
+.apprenticeship-div-textDiv {
+    grid-column: 3/ span 3;
+    grid-row: row 1 / span 3;
+    background: linear-gradient(to right, white, white);
+    opacity: 0.9;
+    background-color: white;
+    margin-top: 20%;
+    width: 100%;
+    height: 100%;
+}
+
+.apprenticeship-div-text {
+    width: 100%;
+    padding: 15%;
+    background-color: white;
+    font-size: 140%;
+    text-align: center;
+}
+
+.tutoring_process_wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0em;
+}
+
+.apprenticeship-div-wrapper2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2em;
+}
+
+.bckgrnd3-button {
+    background-color: #E8CF2D;
+    margin-top: 5%;
+    margin-left: 25%;
+    border-radius: 1rem;
+    width: 50%;
+}
+
+.bckgrnd3-para {
+    font-size: 200%;
+    text-align: center;
+}
+
+/*step 1 starts*/
+.step1,
+.step1:hover,
+.step1:active,
+.step1:visited,
+.step1:focus {
+    background-color: #A41324;
+    border-color: #A41324;
+}
+
+.step1Side {
+    background-color: #C69C72;
+}
+
+.step1Detail {
+    background-color: #C69C72;
+}
+
+.tutoring_process_buttonGroup1 {
+    width: 70%;
+}
+
+/*step 1 ends*/
+
+/*step 2 starts*/
+.step2,
+.step2:hover,
+.step2:active,
+.step2:visited,
+.step2:focus {
+    background-color: #FF6E40;
+    border-color: #FF6E40;
+}
+
+.step2Side {
+    background-color: #FFC13B;
+}
+
+.step2Detail {
+    background-color: #FFC13B;
+}
+
+.tutoring_process_buttonGroup2 {
+    width: 70%;
+}
+
+.tutoring_process_button2 {
+    margin-top: 15%;
+}
+
+/*step 2 ends*/
+/*step 3 starts*/
+.step3,
+.step3:hover,
+.step3:active,
+.step3:visited,
+.step3:focus {
+    background-color: #2C5F2D;
+    border-color: #2C5F2D;
+}
+
+.step3Side {
+    background-color: #97BC62;
+}
+
+.step3Detail {
+    background-color: #97BC62;
+}
+
+.tutoring_process_buttonGroup3 {
+    width: 70%;
+}
+
+.tutoring_process_button3 {
+    margin-top: 30%;
+}
+
+/*step 3 ends*/
+
+/*step 4 starts*/
+.step4,
+.step4:hover,
+.step4:active,
+.step4:visited,
+.step4:focus {
+    background-color: #6363AC;
+    border-color: #6363AC;
+}
+
+.step4Side {
+    background-color: #A6C1E6;
+}
+
+.step4Detail {
+    background-color: #A6C1E6;
+}
+
+.tutoring_process_buttonGroup4 {
+    width: 70%;
+}
+
+.tutoring_process_button4 {
+    margin-top: 45%;
+}
+
+/*step 4 ends*/
+
+
+.step1,
+.step2,
+.step3,
+.step4 {
+
+    width: 100%;
+    border-radius: .5rem;
+
+}
+
+.step1Side,
+.step2Side,
+.step3Side,
+.step4Side {
+
+    border-radius: .5rem;
+    width: 40%;
+}
+
+.sideNote1,
+.sideNote2,
+.sideNote3,
+.sideNote4 {
+    display: none;
+}
+
+.step1Detail,
+.step2Detail,
+.step3Detail,
+.step4Detail {
+    width: 100%;
+    padding: 5%;
+    border-radius: .5rem;
+    display: none;
+}
+
+p.step-title {
+    width: 100%;
+    font-size: 150%;
+    font-weight: 100;
+    padding: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .tutoring_process_wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 0em;
+        width: 90%;
+        text-align: center;
+        margin-left: 10%;
+    }
+
+
+    .tutoring_process_button1,
+    .tutoring_process_button2,
+    .tutoring_process_button3,
+    .tutoring_process_button4 {
+        width: 90%;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    p.step-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .apprenticeship-div-text {
+        width: 100%;
+        padding: 5%;
+        background-color: white;
+        font-size: 80%;
+        text-align: center;
+    }
+
+    .apprenticeship-div-wrapper2 {
+        grid-template-columns: 100%;
+    }
+
+    .bckgrnd3-para {
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .apprenticeship-para {
+        width: 100%;
+        padding: 5%;
+    }
+
+}
+
+@media only screen and (width: 1024px) {
+
+    .apprenticeship-div-wrapper2 {
+        grid-template-columns: 100%;
+    }
+
+    .bckgrnd3-para {
+        width: 100%;
+        font-size: 140%;
+    }
+
+}
