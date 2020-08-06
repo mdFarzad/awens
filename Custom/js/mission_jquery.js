@@ -58,6 +58,7 @@ $(".step1").click(function () {
 
     $(".sideNote1").fadeToggle(100);
     $(".step1Detail").fadeToggle(500);
+    $(".ttl1").toggle(500);
 
 
 });
@@ -111,6 +112,7 @@ $(".step2").click(function () {
 
     $(".sideNote2").fadeToggle(100);
     $(".step2Detail").fadeToggle(500);
+    $(".ttl2").toggle(500);
 
 
 });
@@ -163,6 +165,7 @@ $(".step3").click(function () {
 
     $(".sideNote3").fadeToggle(100);
     $(".step3Detail").fadeToggle(500);
+    $(".ttl3").toggle(500);
 
 
 });
@@ -215,6 +218,7 @@ $(".step4").click(function () {
 
     $(".sideNote4").fadeToggle(100);
     $(".step4Detail").fadeToggle(500);
+    $(".ttl4").toggle(500);
 
 
 });

@@ -1,5 +1,5 @@
 .apprenticeship {
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 .bckgrnd2 {
@@ -158,8 +158,8 @@
 .step4:active,
 .step4:visited,
 .step4:focus {
-    background-color: #2B00BF;
-    border-color: #2B00BF;
+    background-color: #6363AC;
+    border-color: #6363AC;
 }
 
 .step4Side {
@@ -213,7 +213,6 @@
 .step4Detail {
     width: 100%;
     padding: 5%;
-
     border-radius: .5rem;
     display: none;
 }
@@ -230,8 +229,11 @@ p.step-title {
         display: grid;
         grid-template-columns: 100%;
         grid-gap: 0em;
-        width: 100%;
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
     }
+
 
     .tutoring_process_button1,
     .tutoring_process_button2,
@@ -253,6 +255,33 @@ p.step-title {
         background-color: white;
         font-size: 80%;
         text-align: center;
+    }
+
+    .apprenticeship-div-wrapper2 {
+        grid-template-columns: 100%;
+    }
+
+    .bckgrnd3-para {
+        font-size: 120%;
+        text-align: center;
+    }
+
+    .apprenticeship-para {
+        width: 100%;
+        padding: 5%;
+    }
+
+}
+
+@media only screen and (width: 1024px) {
+
+    .apprenticeship-div-wrapper2 {
+        grid-template-columns: 100%;
+    }
+
+    .bckgrnd3-para {
+        width: 100%;
+        font-size: 140%;
     }
 
 }
