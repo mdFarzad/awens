@@ -11,13 +11,17 @@
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <!--<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">-->
     <!--<link rel="stylesheet" href="Custom/css/custom_css.css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="Custom/css/custom_css.css">
     <link rel="stylesheet" href="Custom/css/mission.css">
     <link rel="stylesheet" href="Custom/css/team.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Materialize/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="Custom/css/navigation.css" media="screen,projection">
+    <link rel="stylesheet" href="Custom/css/master_style.css">
 </head>
 
 <body>
@@ -40,224 +44,258 @@
         <a href="#about">Engage with Us</a>
     </div>-->
 
-    <div class="container-fluid">
-        <div class="navigation_bar">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <!-- Brand -->
-                <div class="row">
-                    <div class="col-sm-2 logo">
-                        <a href="index.html"> <img src="images/AWENS-logo-noedge.png" width="30%" height="60%" alt=""></a>
-                    </div>
-                    <!-- Links -->
-                    <div class="col-sm-10">
-                        <ul class="navbar-nav">
-                            <div class="row options">
-                                <div class="col-md-2">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
-                                            About Us
-                                        </a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="our_mission.html">Why we are here</a>
-                                            <a class="dropdown-item" href="our_team.html">Our Team</a>
-                                            <a class="dropdown-item" href="#">Our Heritage</a>
-                                            <a class="dropdown-item" href="our_reach.html">Our Reach</a>
-                                            <a class="dropdown-item" href="become-member.html">AWENS Members</a>
-                                            <a class="dropdown-item" href="safety_standards.html">Covid Measures</a>
+    <div class="">
+        <nav class="">
+            <div class="">
+                <div class="nav-wrapper">
+                    <a class="brand-logo" href="index.html"><img src="images/AWENS_LOGO_NAME-small.png" width="50%" alt=""></a>
+                    <a class="button-collapse right" data-activates="mobile-nav" href="#" onclick="">
+                        <i class="material-icons">
+                            menu
+                        </i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#">Digital Education Solutions</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-button click-to-toggle" data-activates="inPerson-us-dropdown" href="#" data-toggle="dropdown">In-person Education Solutions
+                                <i class="material-icons right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <ul id="inPerson-us-dropdown" class="dropdown-content">
+                                <li><a href="training_pipeline.html">Training Pipeline</a></li>
+                                <li> <a href="apprentice_tutoring.html">Apprentice Tutoring</a></li>
+                            </ul>
 
-                                        </div>
-                                    </li>
-                                </div>
+                        </li>
+                        <li>
+                            <a href="instructional-skill-certification.html">Instructional Certifications</a>
+                        </li>
+                        <li class="active">
+                            <a class="dropdown-button click-to-toggle" data-activates="about-us-dropdown" href="#" data-toggle="dropdown">
+                                About Us
+                                <i class="material-icons right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <ul id="about-us-dropdown" class="dropdown-content">
+                                <li><a href="our_mission.html">Why we are here</a></li>
+                                <li> <a href="our_team.html">Our Team</a></li>
+                                <li> <a href="#">Our Heritage</a></li>
+                                <li> <a href="our_reach.html">Our Reach</a></li>
+                                <li> <a href="become-member.html">AWENS Members</a></li>
+                                <li> <a href="safety_standards.html">Covid Measures</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="btn white-text waves-effect yellow" href="lets-connect.html">Connect</a>
+                        </li>
 
-                                <div class="col-md-2 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Digital Education Solutions</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link  dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">In-person Education Solutions</a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="training_pipeline.html">Training Pipeline</a>
-                                            <a class="dropdown-item" href="apprentice_tutoring.html">Apprentice Tutoring</a>
+                    </ul>
+                    <ul class="blue darken-4 side-nav right collapsible collapsible-accordion" id="mobile-nav">
 
-                                        </div>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="instructional-skill-certification.html">Instructional Certifications</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="lets-connect.html">Engage with Us</a>
-                                    </li>
-                                </div>
+                        <li>
+                            <div class="user-view z-depth-1">
+                                <!-- <div class="background">
+                                    <img src="images/AWENS_LOGO_NAME-trans.png" width="50%" class="center-align" style="margin-left: 25%">
+                                </div> -->
+                                <img src="images/AWENS_LOGO_NAME-trans.png" width="50%" class="center-align" style="margin-left: 25%">
+                                <a href="#name"><span class="name center-align side-nav-logo">Association of Workplace Educators of Nova Scotia</span></a>
+
                             </div>
+                        </li>
 
-                            <!-- Dropdown -->
+                        <li>
+                            <a class="white-text" href="#">Digital Education Solutions</a>
+                        </li>
+                        <li class="">
+                            <a class="collapsible-header white-text side-drop" data-activates="inPerson-us-dropdown-mobile" href="#" data-toggle="dropdown">In-person Education Solutions
+                                <i class="material-icons white-text right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul id="inPerson-us-dropdown-mobile">
+                                    <li><a href="training_pipeline.html">Training Pipeline</a></li>
+                                    <li> <a href="apprentice_tutoring.html">Apprentice Tutoring</a></li>
 
-                        </ul>
-                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="white-text" href="instructional-skill-certification.html">Instructional Certifications</a>
+                        </li>
+                        <li>
+                            <a class="collapsible-header white-text side-drop" data-activates="about-us-dropdown-mobile" href="#" data-toggle="dropdown">
+                                About Us
+                                <i class="material-icons white-text right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="our_mission.html">Why we are here</a></li>
+                                    <li> <a href="our_team.html">Our Team</a></li>
+                                    <li> <a href="#">Our Heritage</a></li>
+                                    <li> <a href="our_reach.html">Our Reach</a></li>
+                                    <li> <a href="become-member.html">AWENS Members</a></li>
+                                    <li> <a href="safety_standards.html">Covid Measures</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="btn white-text waves-effect waves-white yellow" href="lets-connect.html">Connect</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-        <div class="team">
+            </div>
+        </nav>
+        <div class="white-background common-background">
 
             <div>
-                <h3 class="team-title">Our Team</h3><br>
+                <h3 class="team-title black-text center-align">Our Team</h3><br>
             </div>
+
+        </div>
+        <div class="blue-background common-background">
+            <div>
+                <h3 class="title center-align"> About the AWENS Team</h3>
+
+            </div>
+            <div class="team-about">
+                <p class="flow-text"> <span style="font-weight: light">The AWENS team is comprised of proven excellence in order to provide your organizations with the best in adult education, training, and certification. To meet and exceed the expectations of our clients, our staff comes from a diverse educational background ranging from global leadership, adult education to advanced office administration. This academic and technical expertise present in our organization allows our team to find personalized learning solutions that will help unlock the potential in your workforce.</span></p><br><br>
+
+                <p class="flow-text">AWENS has created a network of industr y partners allowing us to identify key trends in workplace education and training. Our team integrates those concepts into our platform, keeping our course materials current and our training competitive. AWENS is here to bring world class, customized education, and training to your workplace.</p>
+
+            </div>
+        </div>
+
+        <div class="white-background">
+
+            <div>
+                <h3 class="title center-align" style="color: navy">Our Leads</h3><br>
+            </div>
+
+            <div class="row ">
+                <div class="col s12 m12 l6 xl4">
+                    <div class="profile-box z-depth-4">
+                        <div class="left-box center-align">
+                            <img alt="image" class="circle" src="images/0.jpg" width="50%">
+                            <div class="job-position center-align">Executive Director</div>
+                        </div>
+                        <div class="right-box left-align">
+                            <h3 class="title nameTitle left-align">Nancy Thompson</h3>
+
+                            <address>
+
+                                <i class="fa fa-phone" aria-hidden="true" style="padding-top: 10px;"></i> 902-123-456<br>
+                                <i class="fa fa-envelope" aria-hidden="true"></i> nthompson@awens.ca
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 l6 xl4">
+                    <div class="profile-box z-depth-4">
+                        <div class="left-box center-align">
+                            <img alt="image" class="circle image" src="images/sam2.jfif" width="50%">
+                            <div class="job-position"><span class="center-align">Technical Strategist Lead</span></div>
+                        </div>
+                        <div class="right-box left-align">
+                            <h3 class="title nameTitle left-align">Samantha Al-Qishawi</h3>
+
+                            <address>
+
+                                <i class="fa fa-phone" aria-hidden="true" style="padding-top: 10px;"></i> 902-123-456<br>
+                                <i class="fa fa-envelope" aria-hidden="true"></i> nthompson@awens.ca
+                            </address>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m12 offset-l3 l6 xl4">
+                    <div class="profile-box z-depth-4">
+                        <div class="left-box center-align">
+                            <img alt="image" class="circle" src="images/michelle.jpg" width="50%">
+                            <div class="job-position">Communication Officer</div>
+                        </div>
+                        <div class="right-box left-align">
+                            <h3 class="title nameTitle left-align">Michelle<br> Wood</h3>
+
+                            <address>
+
+                                <i class="fa fa-phone" aria-hidden="true" style="padding-top: 10px;"></i> 902-123-456<br>
+                                <i class="fa fa-envelope" aria-hidden="true"></i> nthompson@awens.ca
+                            </address>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
 
         </div>
         <div class="purpose_background">
             <div>
-                <h3 class="team-title"> About the AWENS Team</h3>
-
-            </div>
-            <div class="team-about">
-                <p class="team-para"> <span style="font-weight: light">The AWENS team is comprised of proven excellence in order to provide your organizations with the best in adult education, training, and certification. To meet and exceed the expectations of our clients, our staff comes from a diverse educational background ranging from global leadership, adult education to advanced office administration. This academic and technical expertise present in our organization allows our team to find personalized learning solutions that will help unlock the potential in your workforce.</span></p><br><br>
-
-                <p class="team-para">AWENS has created a network of industr y partners allowing us to identify key trends in workplace education and training. Our team integrates those concepts into our platform, keeping our course materials current and our training competitive. AWENS is here to bring world class, customized education, and training to your workplace.</p>
-
-            </div>
-        </div>
-
-        <div class="team-leads">
-
-            <div>
-                <h3 class="team-title" style="color: navy">Our Leads</h3><br>
-            </div>
-            <!--  <div class="lead">
-                <div class="members">
-                    <p class="name">Nancy Thompson - Executive Director</p>
-                    <p class="ph"><i class="fa fa-phone" aria-hidden="true"></i> 902-123-456</p>
-                    <p class="em"><i class="fa fa-envelope" aria-hidden="true"></i> nthompson@awens.ca</p>
-                </div>
-                <div class="members">
-                    <p class="name">Samantha Al-Qishawi - Technical Strategist Lead</p>
-                    <p class="ph"><i class="fa fa-phone" aria-hidden="true"></i> 902-123-456</p>
-                    <p class="em"><i class="fa fa-envelope" aria-hidden="true"></i> sal-qishawi@awens.ca</p>
-                </div>
-                <div class="members">
-                    <p class="name">Michelle Wood - Communication Officer</p>
-                    <p class="ph"><i class="fa fa-phone" aria-hidden="true"></i> 902-123-456</p>
-                    <p class="em"><i class="fa fa-envelope" aria-hidden="true"></i> mwood@awens.ca</p>
-                </div>
-            </div>-->
-
-
-            <!--Leads temporary -->
-
-            <div class="row ld">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <div class="contact-box">
-                        <!--     <a href="#"> -->
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="text-center">
-                                    <img alt="image" class="img-circle" src="images/0.jpg" width="100%">
-                                    <div class="job-position">Executive Director</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <h3><strong>Nancy Thompson</strong></h3>
-                                <p><i class="fa fa-map-marker"></i> 3667, Strawberry Hill St <br>
-                                    Halifax, NS</p>
-                                <address>
-                                    <strong>Association of Workplace Educators of Nova Scotia</strong><br>
-
-                                    <i class="fa fa-phone" aria-hidden="true" style="padding-top: 10px;"></i> 902-123-456<br>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i> nthompson@awens.ca
-                                </address>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-5">
-                    <div class="contact-box">
-
-                        <div class="row">
-                            <div class="col-sm-5">
-                                <div class="text-center">
-                                    <img alt="image" class="img-circle" src="images/sam.jpg" width="100%">
-                                    <div class="job-position">Technical Strategist Lead</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-7">
-                                <h3><strong>Samantha Al-Qishawi</strong></h3>
-                                <p><i class="fa fa-map-marker"></i> 3667, Strawberry Hill St <br>
-                                    Halifax, NS</p>
-                                <address>
-                                    <strong>Association of Workplace Educators of Nova Scotia</strong><br>
-                                    <i class="fa fa-phone" aria-hidden="true" style="padding-top: 10px;"></i> 902-123-456<br>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i> sal-qishawi@awens.ca
-                                </address>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-
-                    </div>
-                </div>
-                <div class="col-lg-1"></div>
+                <h3 class="title blue-text center-align">AWENS Board of Directors</h3>
             </div>
 
-            <div class="row ld">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-5">
-                    <div class="contact-box">
 
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="text-center">
-                                    <img alt="image" class="img-circle" src="images/michelle.jpg" width="100%">
-                                    <div class="job-position">Communication Officer</div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <h3><strong>Michelle Wood</strong></h3>
-                                <p><i class="fa fa-map-marker"></i> 3667, Strawberry Hill St <br>
-                                    Halifax, NS</p>
-                                <address>
-                                    <strong>Association of Workplace Educators of Nova Scotia</strong><br>
-
-                                    <i class="fa fa-phone" aria-hidden="true" style="padding-top: 10px;"></i> 902-123-456<br>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i> mwood@awens.ca
-                                </address>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-
-                    </div>
+            <div class="collection Cgrid">
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">Zoran Jokic</p>
+                    <p class="red-text">Chair</p>
+                    <p class="black-text">President of Training First Consulting</p>
                 </div>
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">Jennifer O'Quinn</p>
+                    <p class="red-text">Vice Chair</p>
+                    <p class="black-text"> Business Development Officer at CBDC Blue Water</p>
+                </div>
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">Tanya Burke</p>
+                    <p class="red-text">Treasurer</p>
+                    <p class="black-text">Executive Director of East Hants Community Learning Assoc.</p>
+                </div>
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">Laura Hubley</p>
+                    <p class="red-text">Secretary</p>
+                    <p class="black-text">People & Culture Advisor at Parkland </p>
+                </div>
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">Irene Carroll</p>
+                    <p class="red-text">Finance Manager</p>
+                    <p class="black-text">Business Consultant at Mi’Kmaw Economic Development Services</p>
+                </div>
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">Ann Devine</p>
+                    <p class="black-text">Founder and CEO of Ashanti Leadership and Professional Development Services</p>
 
-                <div class="col-lg-3"></div>
-            </div>
-            <!-- -->
-
-        </div>
-
-        <div class="purpose_background">
-            <div>
-                <h3 class="boardOfDirectors">AWENS Board of Directors</h3>
-            </div>
-
-            <div class="boardMembers">
-                <ul class="membList">
-                    <li class="bList">Zoran Jokic - Chair</li>
-                    <li class="bList">Paula Green - Vice Chair</li>
-                    <li class="bList">Tanya Burke - Treasurer</li>
-                    <li class="bList">Wanda Harbin - Secretary</li>
-                    <li class="bList">Irene Carroll</li>
-                    <li class="bList">Nora Perry</li>
-                    <li class="bList">Leigh Faulkner - Ex officio</li>
-                    <li class="bList">Caroline Spindler</li>
-                    <li class="bList">Lisette Jones</li>
-                </ul>
+                </div>
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">Wanda Harbin</p>
+                    <p class="black-text">Instructor at Rick Hanson Foundation AC – NSCC</p>
+                    <p class="black-text"></p>
+                </div>
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">Lisette Jones</p>
+                    <p class="black-text">Owner of ThinkSmart Training and Consulting</p>
+                    <p class="black-text"></p>
+                </div>
+                <div class="collection-item avatar">
+                    <img src="images/dummy-profile.png" alt="" class="circle">
+                    <p class="blue-text">George MacDonald</p>
+                    <p class="black-text">Business Manager of Sheet Metal Workers International Local 409</p>
+                    <p class="black-text"></p>
+                </div>
             </div>
             <div class="team-about">
 
@@ -265,12 +303,12 @@
             </div>
         </div>
 
-        <footer>
+       <footer>
             <div class="footer">
-                <div class="footerBlock">
+                <div class="center-align">
 
-                    <p class="footerTable">Begin your learning Journey with AWENS</p>
-                    <div class="footerButtonDiv"><a type="button" name="bt1" class="btn btn-primary btn-lg footerButton">Connect</a></div>
+                    <p class=" white-text center-align footerHead">Begin your learning Journey</p>
+                    <a name="bt1" class="btn waves-effect waves-yellow footerButton center-align">Connect</a>
 
                 </div>
                 <div class="connect">
@@ -280,36 +318,35 @@
                 <div class="horizontal">
                     <hr class="line">
                 </div>
-
                 <div class="footerLists">
                     <div class="footer-wrapper">
                         <div class="fwrap1">
                             <div class="fwrap1-1">
                                 <ul class="flist">
                                     <a href="#">
-                                        <li class="fl a">About Us</li>
+                                        <li class="fl">About Us</li>
                                     </a>
                                     <a href="#">
                                         <li class="fl">Our Mission</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Our Heritage</li>
+                                        <li class="fl ">Our Heritage</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Our Reach</li>
+                                        <li class="fl ">Our Reach</li>
                                     </a>
                                 </ul>
                             </div>
                             <div class="fwrap1-2">
                                 <ul class="flist">
                                     <a href="#">
-                                        <li class="fl a">Engage With Us</li>
+                                        <li class="fl ">Engage With Us</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Contact US</li>
+                                        <li class="fl ">Contact US</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">AWENS' Members </li>
+                                        <li class="fl ">AWENS' Members </li>
                                     </a>
                                 </ul>
                             </div>
@@ -317,16 +354,16 @@
                         <div class="fwrap2">
                             <ul class="flist">
                                 <a href="#">
-                                    <li class="fl a">Digital Education Solutions</li>
+                                    <li class="fl ">Digital Education Solutions</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Instructional Skills Workshop</li>
+                                    <li class="fl ">Instructional Skills Workshop</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Tutoring</li>
+                                    <li class="fl"> Tutoring</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Training Pipeline</li>
+                                    <li class="fl">Training Pipeline</li>
                                 </a>
 
                             </ul>
@@ -345,11 +382,20 @@
                         </div>
 
                     </div>
-                    <div class="copyright">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>awens.ca</div>
+
+                    <div class="footerBottom row">
+                        <div class="col s4 offset-2  address left-align"><i class="material-icons white-text">place</i>2830 Agricola</div>
+
+                    </div>
+
                 </div>
+
+
+                <div class="copyright center-align">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>awens.ca</div>
+
+
             </div>
         </footer>
-
     </div>
 
     <div data-role="content">
@@ -358,12 +404,9 @@
 
     <aside></aside>
 
-    <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!--<script src='https://kit.fontawesome.com/a076d05399.js'></script>-->
     <script src="Custom/js/mission_jquery.js"></script>
+    <script src="Materialize/js/materialize.min.js"></script>
+    <script src="Custom/js/nav.js"></script>
 </body></html>

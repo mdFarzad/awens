@@ -10,86 +10,123 @@
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <!--<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">-->
-    <!--<link rel="stylesheet" href="Custom/css/custom_css.css">-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="Custom/css/custom_css.css"><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">-->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Materialize/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="Custom/css/navigation.css" media="screen,projection">
     <link rel="stylesheet" href="Custom/css/custom_css.css">
     <link rel="stylesheet" href="Custom/css/mission.css">
-    <link rel="stylesheet" href="Custom/css/team.css">
     <link rel="stylesheet" href="Custom/css/lets-connect.css">
+    <link rel="stylesheet" href="Custom/css/style.css">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="navigation_bar">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <!-- Brand -->
-                <div class="row">
-                    <div class="col-sm-2 logo">
-                        <a href="index.html"> <img src="images/AWENS-logo-noedge.png" width="30%" height="60%" alt=""></a>
-                    </div>
-                    <!-- Links -->
-                    <div class="col-sm-10">
-                        <ul class="navbar-nav">
-                            <div class="row options">
-                                <div class="col-md-2">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
-                                            About Us
-                                        </a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="our_mission.html">Why we are here</a>
-                                            <a class="dropdown-item" href="our_team.html">Our Team</a>
-                                            <a class="dropdown-item" href="#">Our Heritage</a>
-                                            <a class="dropdown-item" href="our_reach.html">Our Reach</a>
-                                            <a class="dropdown-item" href="become-member.html">AWENS Members</a>
-                                            <a class="dropdown-item" href="safety_standards.html">Covid Measures</a>
+    <div class="">
+        <nav class="blue darken-4">
+            <div class="">
+                <div class="nav-wrapper">
+                    <a class="brand-logo" href="index.html"><img src="images/AWENS-logo-small.png" width="60%" alt=""></a>
+                    <a class="button-collapse right" data-activates="mobile-nav" href="#" onclick="">
+                        <i class="material-icons">
+                            menu
+                        </i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#">Digital Education Solutions</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-button click-to-toggle" data-activates="inPerson-us-dropdown" href="#" data-toggle="dropdown">In-person Education Solutions
+                                <i class="material-icons right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <ul id="inPerson-us-dropdown" class="dropdown-content">
+                                <li><a href="training_pipeline.html">Training Pipeline</a></li>
+                                <li> <a href="apprentice_tutoring.html">Apprentice Tutoring</a></li>
+                            </ul>
 
-                                        </div>
-                                    </li>
-                                </div>
+                        </li>
+                        <li>
+                            <a href="instructional-skill-certification.html">Instructional Certifications</a>
+                        </li>
+                        <li class="active">
+                            <a class="dropdown-button click-to-toggle" data-activates="about-us-dropdown" href="#" data-toggle="dropdown">
+                                About Us
+                                <i class="material-icons right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <ul id="about-us-dropdown" class="dropdown-content">
+                                <li><a href="our_mission.html">Why we are here</a></li>
+                                <li> <a href="our_team.html">Our Team</a></li>
+                                <li> <a href="#">Our Heritage</a></li>
+                                <li> <a href="our_reach.html">Our Reach</a></li>
+                                <li> <a href="become-member.html">AWENS Members</a></li>
+                                <li> <a href="safety_standards.html">Covid Measures</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="btn white-text waves-effect yellow" href="lets-connect.html">Connect</a>
+                        </li>
 
-                                <div class="col-md-2 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Digital Education Solutions</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link  dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">In-person Education Solutions</a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="training_pipeline.html">Training Pipeline</a>
-                                            <a class="dropdown-item" href="apprentice_tutoring.html">Apprentice Tutoring</a>
+                    </ul>
+                    <ul class="blue darken-4 side-nav right collapsible collapsible-accordion" id="mobile-nav">
+                        <li>
+                            <a class="white-text" href="#">Digital Education Solutions</a>
+                        </li>
+                        <li class="">
+                            <a class="collapsible-header white-text side-drop" data-activates="inPerson-us-dropdown-mobile" href="#" data-toggle="dropdown">In-person Education Solutions
+                                <i class="material-icons white-text right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul id="inPerson-us-dropdown-mobile">
+                                    <li><a href="training_pipeline.html">Training Pipeline</a></li>
+                                    <li> <a href="apprentice_tutoring.html">Apprentice Tutoring</a></li>
 
-                                        </div>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="instructional-skill-certification.html">Instructional Certifications</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="lets-connect.html">Engage with Us</a>
-                                    </li>
-                                </div>
+                                </ul>
                             </div>
+                        </li>
+                        <li>
+                            <a class="white-text" href="instructional-skill-certification.html">Instructional Certifications</a>
+                        </li>
+                        <li>
+                            <a class="collapsible-header white-text side-drop" data-activates="about-us-dropdown-mobile" href="#" data-toggle="dropdown">
+                                About Us
+                                <i class="material-icons white-text right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul>
 
-                            <!-- Dropdown -->
+                                    <li><a href="our_mission.html">Why we are here</a></li>
+                                    <li> <a href="our_team.html">Our Team</a></li>
+                                    <li> <a href="#">Our Heritage</a></li>
+                                    <li> <a href="our_reach.html">Our Reach</a></li>
+                                    <li> <a href="become-member.html">AWENS Members</a></li>
+                                    <li> <a href="safety_standards.html">Covid Measures</a></li>
 
-                        </ul>
-                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="btn white-text waves-effect yellow" href="lets-connect.html">Connect</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
 
         <div class="lets-connect">
-
             <div class="lets-connect-div">
-                <h3 class="lets-connect-title">Lets Connect</h3><br>
+                <h3 class="lets-connect-title center-align">Lets Connect</h3><br>
                 <div class="social-icons">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                     <i class="fa fa-phone" aria-hidden="true"></i>
@@ -99,8 +136,49 @@
                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                 </div>
             </div>
+        </div>
+        <div class="feedback">
+            <h4 class="title title-back center-align white-text teal">Contact us</h4>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6 m6 l3 offset-l3">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6 m6 l3">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12  m12 l6 offset-l3">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 m12 l6 offset-l3">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="subject">Subject</label>
+                        </div>
+                    </div>
 
 
+                    <div class="row">
+                        <div class="input-field col s12  m12 l6 offset-l3">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Message</label>
+                        </div>
+                    </div>
+
+                    <div class="center-align">
+                        <a href="" class="btn teal">Send</a>
+                        <a href="" class="btn disabled">Cancel</a>
+                    </div>
+
+                </form>
+            </div>
         </div>
 
 
@@ -135,10 +213,10 @@
 
         <footer>
             <div class="footer">
-                <div class="footerBlock">
+                <div class="center-align">
 
-                    <p class="footerTable">Begin your learning Journey with AWENS</p>
-                    <div class="footerButtonDiv"><a type="button" name="bt1" class="btn btn-primary btn-lg footerButton">Connect</a></div>
+                    <p class=" white-text center-align footerHead">Begin your learning Journey</p>
+                    <a name="bt1" class="btn waves-effect waves-yellow footerButton center-align">Connect</a>
 
                 </div>
                 <div class="connect">
@@ -148,36 +226,35 @@
                 <div class="horizontal">
                     <hr class="line">
                 </div>
-
                 <div class="footerLists">
                     <div class="footer-wrapper">
                         <div class="fwrap1">
                             <div class="fwrap1-1">
                                 <ul class="flist">
                                     <a href="#">
-                                        <li class="fl a">About Us</li>
+                                        <li class="fl">About Us</li>
                                     </a>
                                     <a href="#">
                                         <li class="fl">Our Mission</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Our Heritage</li>
+                                        <li class="fl ">Our Heritage</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Our Reach</li>
+                                        <li class="fl ">Our Reach</li>
                                     </a>
                                 </ul>
                             </div>
                             <div class="fwrap1-2">
                                 <ul class="flist">
                                     <a href="#">
-                                        <li class="fl a">Engage With Us</li>
+                                        <li class="fl ">Engage With Us</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Contact US</li>
+                                        <li class="fl ">Contact US</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">AWENS' Members </li>
+                                        <li class="fl ">AWENS' Members </li>
                                     </a>
                                 </ul>
                             </div>
@@ -185,16 +262,16 @@
                         <div class="fwrap2">
                             <ul class="flist">
                                 <a href="#">
-                                    <li class="fl a">Digital Education Solutions</li>
+                                    <li class="fl ">Digital Education Solutions</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Instructional Skills Workshop</li>
+                                    <li class="fl ">Instructional Skills Workshop</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Tutoring</li>
+                                    <li class="fl"> Tutoring</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Training Pipeline</li>
+                                    <li class="fl">Training Pipeline</li>
                                 </a>
 
                             </ul>
@@ -213,8 +290,18 @@
                         </div>
 
                     </div>
-                    <div class="copyright">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>awens.ca</div>
+
+                    <div class="footerBottom row">
+                        <div class="col s4 offset-2  address left-align"><i class="material-icons white-text">place</i>2830 Agricola</div>
+
+                    </div>
+
                 </div>
+
+
+                <div class="copyright center-align">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>awens.ca</div>
+
+
             </div>
         </footer>
 
@@ -230,8 +317,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!--<script src='https://kit.fontawesome.com/a076d05399.js'></script>-->
     <script src="Custom/js/mission_jquery.js"></script>
-</body></html>
+    <script src="Materialize/js/materialize.min.js"></script>
+    <script src="Custom/js/nav.js"></script>
+</body>
+
+</html>

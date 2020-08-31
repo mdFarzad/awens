@@ -10,99 +10,148 @@
 
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <!--<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">-->
-    <!--<link rel="stylesheet" href="Custom/css/custom_css.css">-->
+    <!--<link rel="stylesheet" href="Custom/css/custom_css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="Custom/css/custom_css.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Materialize/css/materialize.min.css" media="screen,projection">
     <link rel="stylesheet" href="Custom/css/mission.css">
-    <link rel="stylesheet" href="Custom/css/team.css">
     <link rel="stylesheet" href="Custom/css/become-member.css">
+    <link rel="stylesheet" href="Custom/css/navigation.css" media="screen,projection">
+    <link rel="stylesheet" href="Custom/css/master_style.css">
+    <link rel="stylesheet" href="Custom/css/custom_css.css">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="navigation_bar">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <!-- Brand -->
-                <div class="row">
-                    <div class="col-sm-2 logo">
-                        <a href="index.html"> <img src="images/AWENS-logo-noedge.png" width="30%" height="60%" alt=""></a>
-                    </div>
-                    <!-- Links -->
-                    <div class="col-sm-10">
-                        <ul class="navbar-nav">
-                            <div class="row options">
-                                <div class="col-md-2">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
-                                            About Us
-                                        </a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="our_mission.html">Why we are here</a>
-                                            <a class="dropdown-item" href="our_team.html">Our Team</a>
-                                            <a class="dropdown-item" href="#">Our Heritage</a>
-                                            <a class="dropdown-item" href="our_reach.html">Our Reach</a>
-                                            <a class="dropdown-item" href="become-member.html">AWENS Members</a>
-                                            <a class="dropdown-item" href="safety_standards.html">Covid Measures</a>
+    <div class="">
+        <nav class="">
+            <div class="">
+                <div class="nav-wrapper">
+                    <a class="brand-logo" href="index.html"><img src="images/AWENS_LOGO_NAME-small.png" width="50%" alt=""></a>
+                    <a class="button-collapse right" data-activates="mobile-nav" href="#" onclick="">
+                        <i class="material-icons">
+                            menu
+                        </i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="#">Digital Education Solutions</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-button click-to-toggle" data-activates="inPerson-us-dropdown" href="#" data-toggle="dropdown">In-person Education Solutions
+                                <i class="material-icons right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <ul id="inPerson-us-dropdown" class="dropdown-content">
+                                <li><a href="training_pipeline.html">Training Pipeline</a></li>
+                                <li> <a href="apprentice_tutoring.html">Apprentice Tutoring</a></li>
+                            </ul>
 
-                                        </div>
-                                    </li>
-                                </div>
+                        </li>
+                        <li>
+                            <a href="instructional-skill-certification.html">Instructional Certifications</a>
+                        </li>
+                        <li class="active">
+                            <a class="dropdown-button click-to-toggle" data-activates="about-us-dropdown" href="#" data-toggle="dropdown">
+                                About Us
+                                <i class="material-icons right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <ul id="about-us-dropdown" class="dropdown-content">
+                                <li><a href="our_mission.html">Why we are here</a></li>
+                                <li> <a href="our_team.html">Our Team</a></li>
+                                <li> <a href="#">Our Heritage</a></li>
+                                <li> <a href="our_reach.html">Our Reach</a></li>
+                                <li> <a href="become-member.html">AWENS Members</a></li>
+                                <li> <a href="safety_standards.html">Covid Measures</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="btn white-text waves-effect yellow" href="lets-connect.html">Connect</a>
+                        </li>
 
-                                <div class="col-md-2 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Digital Education Solutions</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link  dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">In-person Education Solutions</a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="training_pipeline.html">Training Pipeline</a>
-                                            <a class="dropdown-item" href="apprentice_tutoring.html">Apprentice Tutoring</a>
+                    </ul>
+                    <ul class="blue darken-4 side-nav right collapsible collapsible-accordion" id="mobile-nav">
 
-                                        </div>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="instructional-skill-certification.html">Instructional Certifications</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="lets-connect.html">Engage with Us</a>
-                                    </li>
-                                </div>
+                        <li>
+                            <div class="user-view z-depth-1">
+                                <!-- <div class="background">
+                                    <img src="images/AWENS_LOGO_NAME-trans.png" width="50%" class="center-align" style="margin-left: 25%">
+                                </div> -->
+                                <img src="images/AWENS_LOGO_NAME-trans.png" width="50%" class="center-align" style="margin-left: 25%">
+                                <a href="#name"><span class="name center-align side-nav-logo">Association of Workplace Educators of Nova Scotia</span></a>
+
                             </div>
+                        </li>
 
-                            <!-- Dropdown -->
+                        <li>
+                            <a class="white-text" href="#">Digital Education Solutions</a>
+                        </li>
+                        <li class="">
+                            <a class="collapsible-header white-text side-drop" data-activates="inPerson-us-dropdown-mobile" href="#" data-toggle="dropdown">In-person Education Solutions
+                                <i class="material-icons white-text right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul id="inPerson-us-dropdown-mobile">
+                                    <li><a href="training_pipeline.html">Training Pipeline</a></li>
+                                    <li> <a href="apprentice_tutoring.html">Apprentice Tutoring</a></li>
 
-                        </ul>
-                    </div>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="white-text" href="instructional-skill-certification.html">Instructional Certifications</a>
+                        </li>
+                        <li>
+                            <a class="collapsible-header white-text side-drop" data-activates="about-us-dropdown-mobile" href="#" data-toggle="dropdown">
+                                About Us
+                                <i class="material-icons white-text right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="our_mission.html">Why we are here</a></li>
+                                    <li> <a href="our_team.html">Our Team</a></li>
+                                    <li> <a href="#">Our Heritage</a></li>
+                                    <li> <a href="our_reach.html">Our Reach</a></li>
+                                    <li> <a href="become-member.html">AWENS Members</a></li>
+                                    <li> <a href="safety_standards.html">Covid Measures</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="btn white-text waves-effect waves-white yellow" href="lets-connect.html">Connect</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
 
-        <div class="become-member">
+
+        <div class="white-background common-background">
 
             <div>
-                <h3 class="become-member-title"> Become an <br> AWENS Educator</h3><br>
+                <h3 class="title black-text center-align">AWENS Membership</h3><br>
             </div>
 
 
         </div>
 
 
-        <div class="purpose_background">
+        <div class="blue-background common-background">
             <div>
-                <h3 class="member-eligibility-title">Who Can Be a Member ?</h3>
+                <h3 class="member-eligibility-title center-align">Membership Eligibility</h3>
             </div>
 
             <div class="member-eligibility">
-                <p class="eligibility-para">An adult educator who is working, or plans to work, in workplace edication and who supports the goals of lifelong learning and the delivery of essential skills program</p>
+                <p class="eligibility-para flow-text left-align">An adult educator who is working, or plans to work, in workplace education and who supports the goals of lifelong learning and the delivery of essential skills programs.</p>
             </div>
 
         </div>
@@ -110,14 +159,14 @@
         <div class="why-member">
 
             <div>
-                <h3 class="why-member-title" style="color: navy">Why become a Member ?</h3><br>
+                <h3 class="why-member-title center-align" style="color: navy">Membership Benefits</h3><br>
             </div>
 
             <div class="why-member-child-div">
-                <p class="why-member-para">AWENS offer three tiers of membership. Look below to choose the best plan for you.</p>
+                <p class="why-member-para flow-text center-align">AWENS offers three tiers of membership. Look below to choose the best plan for you. </p>
             </div>
 
-            <div class="wrapper">
+            <!--  <div class="wrapper">
                 <div class="wrap1">
                     <h4 class="wrapHeads">Full Member</h4>
                     <h5 class="wrapSubHead">$100 first year<br>$50 Annually to Renew</h5>
@@ -142,8 +191,10 @@
                             </ul>
                         </li>
                     </ul>
+
                 </div>
                 <div class="wrap2">
+
                     <h4 class="wrapHeads">Associate Member</h4>
                     <h5 class="wrapSubHead">$65 Annually</h5>
                     <ul class="membership">
@@ -158,6 +209,8 @@
                         <li>Training and Board Room Rentals</li>
 
                     </ul>
+
+
                 </div>
                 <div class="wrap3">
                     <h4 class="wrapHeads">Corporate Member</h4>
@@ -183,60 +236,179 @@
                             </ul>
                         </li>
                     </ul>
+
+                </div>
+
+            </div> -->
+
+            <div class="wrapper">
+                <div class="wrap1 white">
+                    <ul class="collection with-header">
+                        <li class="collection-header  blue darken-4">
+                            <h4 class="wrapHeads white-text">Full Member</h4>
+                            <h5 class="wrapSubHead white-text">$100 first year<br>$50 Annually to Renew</h5>
+                        </li>
+                        <li class="collection-item">
+                            <div>AWENS Annual Corporate Directory Listing (Annual Report)</div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Access to health and Dental Benefits Plan</div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Network events accross Nova Scotia with <ul class="subList">
+                                    <li>Corporate Professionals</li>
+                                    <li>Associate Members</li>
+                                    <li>Government</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Access to AWENS <ul class="subList">
+                                    <li>Resource Library</li>
+                                    <li>Corporate RFP</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Opportunity to attend Professional Development workshops</div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Training and Board Room Rentals<br><strong style="font-weight: 800">(Member Pricing)</strong></div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Corporate Discount offerings <ul class="subList">
+                                    <li>Hotels Supply Chain</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="wrap2 white">
+                    <ul class="collection with-header">
+                        <li class="collection-header  blue darken-4">
+                            <h4 class="wrapHeads white-text">Associate Member</h4>
+                            <h5 class="wrapSubHead white-text">$65 Annually</h5>
+                        </li>
+                        <li class="collection-item">
+                            <div>Access to health and Dental Benefits Plan</div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Access to AWENS <ul class="subList">
+                                    <li>Resource Library</li>
+                                    <li>Corporate RFP</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Opportunity to attend Professional Development workshops</div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Training and Board Room Rentals<br><strong style="font-weight: 800">(Member Pricing)</strong></div>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+                <div class="wrap3 white">
+                    <ul class="collection with-header">
+                        <li class="collection-header  blue darken-4">
+                            <h4 class="wrapHeads white-text">Corporate Member</h4>
+                            <h5 class="wrapSubHead white-text">$250 Annually</h5>
+                        </li>
+                        <li class="collection-item">
+                            <div>AWENS Annual Corporate Directory Listing (Annual Report)</div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Access to health and Dental Benefits Plan</div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Network events accross Nova Scotia with <ul class="subList">
+                                    <li>Corporate Professionals</li>
+                                    <li>Associate Members</li>
+                                    <li>Government</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Access to AWENS <ul class="subList">
+                                    <li>Resource Library</li>
+                                    <li>Corporate RFP</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Opportunity to attend Professional Development workshops</div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Training and Board Room Rentals<br><strong style="font-weight: 800">(Member Pricing)</strong></div>
+                        </li>
+                        <li class="collection-item">
+                            <div>Corporate Discount offerings <ul class="subList">
+                                    <li>Hotels Supply Chain</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
             <!-- -->
+            <div class="white-background commonbackground">
+                <p class="eligibility-para flow-text">Disclaimer: It is important our members realize that a membership does not guarantee the opportunity to secure contracts to deliver workplace education sessions with corporations, or with federal and provincial governments. </p>
+            </div>
 
         </div>
 
-        <div class="purpose_background">
+        <div class="blue-background common-background">
             <div>
-                <h3 class="membership-process-title">How to Become a Member ?</h3>
+                <h3 class="membership-process-title">How to Become a Member</h3>
             </div>
 
             <div class="member-process">
-                <p class="process-para">Download our application form (Individual Membership Application or Corporate Membership Application) Send the completed application form via mail it to us at the address on the form.There is a non-refundable application fee of $50. Please be advised that submission of your application and application fee does not automatically indicate that you are an accepted member of AWENS. Download our application form (<a class="form-link" href="#">Individual Membership Application or Corporate Membership Application</a>) Send the completed application form via mail it to us at the address on the form. <br><br>There is a non-refundable application fee of $50. Please be advised that submission of your application and application fee does not automatically indicate that you are an accepted member of AWENS.</p><br><br>
-                <h3 class="form-fee">Please enclose the following with your application form and $50 application fee</h3>
+                <p class="process-para flow-text left-align">Download our application form (<a class="form-link" href="/download/AWENS-Membership-Application-Form-2017-2018-December2017%20(1).doc" download>Individual Membership Application or Corporate Membership Application</a>) Send the completed application form via mail it to us at the address on the form.<br><br>There is a non-refundable application fee of $50. Please be advised that submission of your application and application fee does not automatically indicate that you are an accepted member of AWENS.</p><br><br>
+                <blockquote class="form-fee white red-text flow-text center-align">Please enclose the following with your application form and $50 application fee</blockquote>
             </div>
 
             <div class="membershipDetail">
                 <div class="fullMember">
-                    <h2 class="fullMember-title">Full Member</h2>
+                    <h3 class="Member-title">Full Member</h3>
                     <ul class="membershipDetailList">
-                        <li>Five evaluation forms from participants who have attended training sessions you have delivered Five evaluation forms from participants who have attended training sessions you have delivered</li>
-                        <li>Copies of certificates to support your qualifications as an instructor or subject matter expert Copies of certificates to support your qualifications as an instructor or subject matter expert</li>
-                        <li>A copy of your CV</li>
-                        <li>Contact information of 2 references</li>
+                        <li class="mlist">Five evaluation forms from participants who have attended training sessions you have delivered</li>
+                        <li class="mlist">Copies of certificates to support your qualifications as an instructor or subject matter expert</li>
+                        <li class="mlist">A copy of your CV</li>
                     </ul>
                 </div>
                 <div class="associateMember">
-                    <h2 class="associateMember-title">Associate Member</h2>
+                    <h3 class="Member-title">Associate Member</h3>
                     <ul class="membershipDetailList">
-                        <li>A rationale explaining why you would like to become an AWENS member (Max 500 words) A rationale explaining why you would like to become an AWENS member (Max 500 words)or or subject matter expert Copies of certificates to support your qualifications as an instructor or subject matter expert</li>
-                        <li>A copy of your CV</li>
-                        <li>Contact information of 1 references</li>
+                        <li class="mlist">A rationale explaining why you would like to become an AWENS member (Max 500 words)</li>
+                        <li class="mlist">A copy of your CV</li>
+                        <li class="mlist">Contact information of 1 Reference </li>
                     </ul>
                 </div>
                 <div class="corporateMember">
-                    <h2 class="corporateMember-title">Corporate Member</h2>
+                    <h3 class="Member-title">Corporate Member</h3>
                     <ul class="membershipDetailList">
-                        <li>No information about this on the current website ********</li>
+                        <li class="mlist">Five evaluation forms from participants who have attended training sessions you have delivered</li>
+                        <li class="mlist">Copies of certificates to support your qualifications as an instructor or subject matter expert</li>
+                        <li class="mlist">A copy of your CV</li>
                     </ul>
                 </div>
             </div>
             <div class="member-process">
-                <p class="process-para">Upon receipt of your AWENS membership application and $50 application fee, an AWENS representative will contact you to set up a meeting or conference call to review your application. If you are approved by the AWENS membership committee, you will receive a letter of acceptance in addition to an invoice for the annual membership fee. Upon receipt of your AWENS membership application and $50 application fee, an AWENS representative will contact you to set up a meeting or conference call to review your application. <br><br>If you are approved by the AWENS membership committee, you will receive a letter of acceptance in addition to an invoice for the annual membership fee. Upon receipt of your AWENS membership application and $50 application fee, an AWENS representative will contact you to set up a meeting or conference call to review your application. If you are approved by the AWENS membership committee, you will receive a letter of acceptance in addition to an invoice for the annual membership fee.</p>
+                <p class="process-para flow-text">Upon receipt of your AWENS membership application and $50 application fee, an AWENS representative will contact you to set up a meeting or conference call to review your application.
+                    <br><br>If you are approved by the AWENS membership committee, you will receive a letter of acceptance in addition to an invoice for the annual membership fee.</p>
             </div>
 
         </div>
 
         <footer>
             <div class="footer">
-                <div class="footerBlock">
+                <div class="center-align">
 
-                    <p class="footerTable">Begin your learning Journey with AWENS</p>
-                    <div class="footerButtonDiv"><a type="button" name="bt1" class="btn btn-primary btn-lg footerButton">Connect</a></div>
+                    <p class=" white-text center-align footerHead">Begin your learning Journey</p>
+                    <a name="bt1" class="btn waves-effect waves-yellow footerButton center-align">Connect</a>
 
                 </div>
                 <div class="connect">
@@ -246,36 +418,35 @@
                 <div class="horizontal">
                     <hr class="line">
                 </div>
-
                 <div class="footerLists">
                     <div class="footer-wrapper">
                         <div class="fwrap1">
                             <div class="fwrap1-1">
                                 <ul class="flist">
                                     <a href="#">
-                                        <li class="fl a">About Us</li>
+                                        <li class="fl">About Us</li>
                                     </a>
                                     <a href="#">
                                         <li class="fl">Our Mission</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Our Heritage</li>
+                                        <li class="fl ">Our Heritage</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Our Reach</li>
+                                        <li class="fl ">Our Reach</li>
                                     </a>
                                 </ul>
                             </div>
                             <div class="fwrap1-2">
                                 <ul class="flist">
                                     <a href="#">
-                                        <li class="fl a">Engage With Us</li>
+                                        <li class="fl ">Engage With Us</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Contact US</li>
+                                        <li class="fl ">Contact US</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">AWENS' Members </li>
+                                        <li class="fl ">AWENS' Members </li>
                                     </a>
                                 </ul>
                             </div>
@@ -283,16 +454,16 @@
                         <div class="fwrap2">
                             <ul class="flist">
                                 <a href="#">
-                                    <li class="fl a">Digital Education Solutions</li>
+                                    <li class="fl ">Digital Education Solutions</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Instructional Skills Workshop</li>
+                                    <li class="fl ">Instructional Skills Workshop</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Tutoring</li>
+                                    <li class="fl"> Tutoring</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Training Pipeline</li>
+                                    <li class="fl">Training Pipeline</li>
                                 </a>
 
                             </ul>
@@ -311,8 +482,18 @@
                         </div>
 
                     </div>
-                    <div class="copyright">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>awens.ca</div>
+
+                    <div class="footerBottom row">
+                        <div class="col s4 offset-2  address left-align"><i class="material-icons white-text">place</i>2830 Agricola</div>
+
+                    </div>
+
                 </div>
+
+
+                <div class="copyright center-align">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>awens.ca</div>
+
+
             </div>
         </footer>
 
@@ -328,8 +509,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <!--<script src='https://kit.fontawesome.com/a076d05399.js'></script>-->
     <script src="Custom/js/mission_jquery.js"></script>
+    <script src="Materialize/js/materialize.min.js"></script>
+    <script src="Custom/js/nav.js"></script>
+
 </body></html>

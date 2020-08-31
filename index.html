@@ -8,164 +8,253 @@
 
     <!-- bootstrap link-->
 
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">-->
-    <!--<link rel="stylesheet" href="Custom/css/custom_css.css">-->
-
-    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Materialize/css/materialize.min.css" media="screen,projection">
+    <link rel="stylesheet" href="Custom/css/navigation.css" media="screen,projection">
+    <link rel="stylesheet" href="Materialize/css/style.css" media="screen,projection">
+    <link rel="stylesheet" href="Custom/css/master_style.css" media="screen,projection">
+
+
+
+
+    <link rel="stylesheet" href="Custom/css/index.css" media="screen,projection">
     <link rel="stylesheet" href="Custom/css/custom_css.css">
-    <link rel="stylesheet" href="Custom/css/mission.css">
-    <link rel="stylesheet" href="Custom/css/index.css">
 
 </head>
 
 
 <body>
-    <div class="container-fluid">
-        <div class="navigation_bar">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <!-- Brand -->
-                <div class="row">
-                    <div class="col-sm-2 logo">
-                        <a href="index.html"> <img src="images/AWENS-logo-noedge.png" width="30%" height="60%" alt=""></a>
-                    </div>
-                    <!-- Links -->
-                    <div class="col-sm-10">
-                        <ul class="navbar-nav">
-                            <div class="row options">
-                                <div class="col-md-2">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown">
-                                            About Us
-                                        </a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="our_mission.html">Why we are here</a>
-                                            <a class="dropdown-item" href="our_team.html">Our Team</a>
-                                            <a class="dropdown-item" href="#">Our Heritage</a>
-                                            <a class="dropdown-item" href="our_reach.html">Our Reach</a>
-                                            <a class="dropdown-item" href="become-member.html">AWENS Members</a>
-                                            <a class="dropdown-item" href="safety_standards.html">Covid Measures</a>
+    <div class="">
+        <nav class="">
+            <div class="">
+                <div class="nav-wrapper">
+                    <a class="brand-logo" href="index.html"><img src="images/AWENS_LOGO_NAME-small.png" width="50%" alt=""></a>
+                    <a class="button-collapse right" data-activates="mobile-nav" href="#" onclick="">
+                        <i class="material-icons">
+                            menu
+                        </i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li>
+                            <a href="workplace_education.html">Workplace Education Initiative</a>
+                        </li>
 
-                                        </div>
-                                    </li>
-                                </div>
+                        <li>
+                            <a class="dropdown-button click-to-toggle" data-activates="inPerson-us-dropdown" href="#" data-toggle="dropdown">Learning Solutions
+                                <i class="material-icons right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <ul id="inPerson-us-dropdown" class="dropdown-content">
+                                <li>
+                                    <a href="#">Digital Education Solutions</a>
+                                </li>
+                                <li>
+                                    <a href="instructional-skill-certification.html">Instructional Certifications</a>
+                                </li>
+                                <li> <a href="apprentice_tutoring.html">Apprenticeship</a></li>
+                                <li><a href="training_pipeline.html">Corporate</a></li>
+                            </ul>
 
-                                <div class="col-md-2 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Digital Education Solutions</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link  dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">In-person Education Solutions</a>
-                                        <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="training_pipeline.html">Training Pipeline</a>
-                                            <a class="dropdown-item" href="apprentice_tutoring.html">Apprentice Tutoring</a>
+                        </li>
 
-                                        </div>
-                                    </li>
-                                </div>
-                                <div class="col-md-3 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="instructional-skill-certification.html">Instructional Certifications</a>
-                                    </li>
-                                </div>
-                                <div class="col-md-2">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="lets-connect.html">Engage with Us</a>
-                                    </li>
-                                </div>
+                        <li class="active">
+                            <a class="dropdown-button click-to-toggle" data-activates="about-us-dropdown" href="#" data-toggle="dropdown">
+                                About Us
+                                <i class="material-icons right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <ul id="about-us-dropdown" class="dropdown-content">
+                                <li><a href="our_mission.html">Why we are here</a></li>
+                                <li> <a href="our_team.html">Our Team</a></li>
+                                <li> <a href="#">Our Heritage</a></li>
+                                <li> <a href="our_reach.html">Our Reach</a></li>
+                                <li> <a href="become-member.html">AWENS Members</a></li>
+                                <li> <a href="safety_standards.html">Covid Measures</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="btn custom-button white-text waves-effect yellow" href="lets-connect.html" style="width: 80%">Connect</a>
+                        </li>
+
+                    </ul>
+                    <ul class="blue darken-4 side-nav right collapsible collapsible-accordion" id="mobile-nav">
+                        <li>
+                            <div class="user-view z-depth-1">
+                                <!-- <div class="background">
+                                    <img src="images/AWENS_LOGO_NAME-trans.png" width="50%" class="center-align" style="margin-left: 25%">
+                                </div> -->
+                                <img src="images/AWENS_LOGO_NAME-trans.png" width="50%" class="center-align" style="margin-left: 25%">
+                                <a href="#name"><span class="name center-align side-nav-logo">Association of Workplace Educators of Nova Scotia</span></a>
+
                             </div>
+                        </li>
+                        <li>
+                            <a class="white-text" href="workplace_education.html">Workplace Education Initiative</a>
+                        </li>
 
-                            <!-- Dropdown -->
+                        <li class="">
+                            <a class="collapsible-header white-text side-drop" data-activates="inPerson-us-dropdown-mobile" href="#" data-toggle="dropdown">Learning Solutions
+                                <i class="material-icons white-text right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul id="inPerson-us-dropdown-mobile">
+                                    <li>
+                                        <a href="#">Digital Education Solutions</a>
+                                    </li>
+                                    <li>
+                                        <a href="instructional-skill-certification.html">Instructional Certifications</a>
+                                    </li>
+                                    <li><a href="training_pipeline.html">Corporate</a></li>
+                                    <li> <a href="apprentice_tutoring.html">Apprenticeship</a></li>
 
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
+                                </ul>
+                            </div>
+                        </li>
 
-        <!-- carousal -->
-        <div id="demo" class="carousel slide container" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-                <li data-target="#demo" data-slide-to="3"></li>
-                <li data-target="#demo" data-slide-to="4"></li>
-                <li data-target="#demo" data-slide-to="5"></li>
-                <li data-target="#demo" data-slide-to="6"></li>
-            </ul>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/front-pics/c1.jpg" alt="Los Angeles">
-                    <div class="carousel-caption one">
-                        <h3>AWENS</h3>
-                        <p>Unlock your potential</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images/front-pics/c5.jpg" alt="New York">
-                    <div class="carousel-caption two">
-                        <h3>AWENS</h3>
-                        <p>Unlock your potential</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/front-pics/c7.png" alt="Chicago">
-                    <div class="carousel-caption three">
-                        <h3>AWENS</h3>
-                        <p>Unlock your potential</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/front-pics/c3.jpg" alt="New York">
-                    <div class="carousel-caption four">
-                        <h3>AWENS</h3>
-                        <p>Unlock your potential</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/front-pics/c4.jpg" alt="New York">
-                    <div class="carousel-caption five">
-                        <h3>AWENS</h3>
-                        <p>Unlock your potential</p>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/front-pics/c4.png" alt="New York">
-                    <div class="carousel-caption six">
-                        <h3>AWENS</h3>
-                        <p>Unlock your potential</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images/front-pics/c6.jpg" alt="New York">
-                    <div class="carousel-caption seven">
-                        <h3>AWENS</h3>
-                        <p>Unlock your potential</p>
-                    </div>
+                        <li>
+                            <a class="collapsible-header white-text side-drop" data-activates="about-us-dropdown-mobile" href="#" data-toggle="dropdown">
+                                About Us
+                                <i class="material-icons white-text right">
+                                    arrow_drop_down
+                                </i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul id="about-us-dropdown-mobile">
+                                    <li> <a href="our_mission.html">Why we are here</a></li>
+                                    <li> <a href="our_team.html">Our Team</a></li>
+                                    <li> <a href="#">Our Heritage</a></li>
+                                    <li> <a href="our_reach.html">Our Reach</a></li>
+                                    <li> <a href="become-member.html">AWENS Members</a></li>
+                                    <li> <a href="safety_standards.html">Covid Measures</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="btn white-text waves-effect waves-white yellow" href="lets-connect.html">Connect</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+        </nav>
+
+        <div class="fixed-action-btn">
+            <a href="feedback.html" class="btn btn-large btn-floating red pulse" style="">
+                <i class="material-icons">feedback</i>
             </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+
         </div>
-        <!-- carousal ends -->
+
+
+        <div class="home-slider blue-background">
+            <div class="slider">
+                <ul class=" slides">
+                    <li>
+                        <img src="images/pexels-pixabay-159866.jpg"> <!-- random image -->
+                        <div class="caption zero right-align">
+                            <div class="image-logo center-align"><img class="" src="images/AWENS_LOGO_NAME-trans.png" alt="" width="2%"></div>
+                            <h5 class="title image-title center-align" style="padding-top: 0; letter-spacing: 0px ">Association of Workplace Educators of Nova Scotia</h5><br>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/digital.jpg"> <!-- random image -->
+                        <div class="caption one left-align aqua-text">
+                            <h4 class="title">Digitalize your content,<br>&nbsp;&nbsp; engage your learner</h4><br>
+                            <blockquote>
+                                <h5 class="light text-lighten-3"><em>"AWENS transforms your content into an online educational environment"</em></h5>
+                            </blockquote>
+                            <a href="" class="btn yellow center">Learn more -> </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/front-pics/c3.jpg"> <!-- random image -->
+                        <div class="caption two right-align">
+                            <h4> Red Seal, GED, Apprenticeship Blocks </h4><br>
+                            <blockquote class="right-quote">
+                                <h5 class="light flow-text text-lighten-3"><em>"Map out your learning journey and realize your education goals with personal and small group tutors "</em></h5>
+                            </blockquote>
+                            <a href="" class="btn yellow center">Learn more -> </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="images/front-pics/c4.jpg"> <!-- random image -->
+                        <div class="caption center-align">
+                            <h4> Teaching the teacher </h4><br>
+                            <blockquote class="right-quote">
+                                <h5 class="light flow-text text-lighten-3"><em>"Enhance the teaching effectiveness of instructors new or experienced with an internationally accredited three-day workshop"</em></h5>
+                            </blockquote>
+                            <a href="" class="btn yellow center">Learn more -> </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/front-pics/c7.jpg"> <!-- random image -->
+                        <div class="caption one left-align">
+                            <h4> Training Pipeline </h4><br>
+                            <blockquote>
+                                <h5 class="light flow-text text-lighten-3"><em>"Access subject matter expert instructors through AWENS RFP pipeline"</em></h5>
+                            </blockquote>
+                            <a href="" class="btn yellow center">Learn more -> </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="home_testimonials blue-background common-background">
+
+            <h4 class="center-align title">Providing World Class Adult Education Solutions</h4>
+            <div class="carousel center " data-indicators="true">
+
+                <div class="carousel-item white z-depth-4" href="#one!">
+                    <p class="black-text home-testimonials ht1  flow-text left-align ">Sylvia Parris-Drummond, CEO of Delmore "Buddy" Daye Learning Institute states: "The ISW training... strengthened our ongoing programming delivery for youth and adult learners."</p>
+                </div>
+                <div class="carousel-item white z-depth-4" href="#two!">
+                    <p class="black-text home-testimonials ht2 flow-text left-align "><b>Morah MacEachern of MJM & Associates was awarded a contract. She has this to say about her experience:</b></p>
+                    <p class="black-text home-testimonials2 flow-text center-align ">"The overall experience [RFP] was a win-win for me –I connected with a new client and developed and delivered a product specific to their needs"</p>
+                </div>
+                <div class="carousel-item white z-depth-4" href="#three!">
+                    <p class="black-text home-testimonials ht2  flow-text left-align">Holly Rye, Employment & Education Services Coordinator of the Military Family Resource Centre (MFRC)says: "I highly recommend AWENS instructional skills training to other industry facilitators regardless of the employment sector you are in". </p>
+                </div>
+            </div>
+        </div>
+        <div class="white-background common-background">
+            <p class="flow-text htb">AWENS is a non-profit association that supports world class, customized workplace education and training. Building capacity from within.</p>
+        </div>
+
+        <div class="white-background common-background">
+            <h4 class="center-align title">Learning Solutions</h4>
+            <p class="flow-text htb">AWENS is a non-profit association that supports world class, customized workplace education and training. Building capacity from within.</p>
+
+            <div class="learning-solutions">
+                <div class="pageRedirect center-align z-depth-1">
+                    <div><a href="training_pipeline.html"><i class="material-icons black-text" style="font-size: 280%">laptop</i></a></div>
+                    <div><a class="redirect-link" href="training_pipeline.html">Digital</a></div>
+                </div>
+                <div class="pageRedirect center-align z-depth-1">
+                    <div><a href="instructional-skill-certification.html"><img src="images/icons/isw.png" width="30%" alt=""></a></div>
+                    <div><a class="redirect-link" href="training_pipeline.html">Instructional</a></div>
+                </div>
+                <div class="pageRedirect center-align z-depth-1">
+                    <div><a href="apprentice_tutoring.html"><img src="images/icons/hat.jpg" width="30%" alt=""></a></div>
+                    <div><a class="redirect-link" href="training_pipeline.html">Apprenticeship</a></div>
+                </div>
+                <div class="pageRedirect center-align z-depth-1">
+                    <div><a href="training_pipeline.html"><img src="images/icons/building.svg" width="30%" alt=""></a></div>
+                    <div><a class="redirect-link" href="training_pipeline.html">Corporate</a></div>
+                </div>
+            </div>
+        </div>
         <footer>
             <div class="footer">
-                <div class="footerBlock">
+                <div class="center-align">
 
-                    <p class="footerTable">Begin your learning Journey with AWENS</p>
-                    <div class="footerButtonDiv"><a type="button" name="bt1" class="btn btn-primary btn-lg footerButton">Connect</a></div>
+                    <p class=" white-text center-align footerHead">Begin your learning Journey</p>
+                    <a name="bt1" class="btn waves-effect waves-yellow footerButton center-align">Connect</a>
 
                 </div>
                 <div class="connect">
@@ -175,36 +264,35 @@
                 <div class="horizontal">
                     <hr class="line">
                 </div>
-
                 <div class="footerLists">
                     <div class="footer-wrapper">
                         <div class="fwrap1">
                             <div class="fwrap1-1">
                                 <ul class="flist">
                                     <a href="#">
-                                        <li class="fl a">About Us</li>
+                                        <li class="fl">About Us</li>
                                     </a>
                                     <a href="#">
                                         <li class="fl">Our Mission</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Our Heritage</li>
+                                        <li class="fl ">Our Heritage</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Our Reach</li>
+                                        <li class="fl ">Our Reach</li>
                                     </a>
                                 </ul>
                             </div>
                             <div class="fwrap1-2">
                                 <ul class="flist">
                                     <a href="#">
-                                        <li class="fl a">Engage With Us</li>
+                                        <li class="fl ">Engage With Us</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">Contact US</li>
+                                        <li class="fl ">Contact US</li>
                                     </a>
                                     <a href="#">
-                                        <li class="fl">AWENS' Members </li>
+                                        <li class="fl ">AWENS' Members </li>
                                     </a>
                                 </ul>
                             </div>
@@ -212,16 +300,16 @@
                         <div class="fwrap2">
                             <ul class="flist">
                                 <a href="#">
-                                    <li class="fl a">Digital Education Solutions</li>
+                                    <li class="fl ">Digital Education Solutions</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Instructional Skills Workshop</li>
+                                    <li class="fl ">Instructional Skills Workshop</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Tutoring</li>
+                                    <li class="fl"> Tutoring</li>
                                 </a>
                                 <a href="#">
-                                    <li class="fl a">Training Pipeline</li>
+                                    <li class="fl">Training Pipeline</li>
                                 </a>
 
                             </ul>
@@ -240,8 +328,18 @@
                         </div>
 
                     </div>
-                    <div class="copyright">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>awens.ca</div>
+
+                    <div class="footerBottom row">
+                        <div class="col s4 offset-2  address left-align"><i class="material-icons white-text">place</i>2830 Agricola</div>
+
+                    </div>
+
                 </div>
+
+
+                <div class="copyright center-align">Copyright<i class="fa fa-copyright" aria-hidden="true"></i>awens.ca</div>
+
+
             </div>
         </footer>
 
@@ -250,14 +348,54 @@
 
 
     <aside></aside>
-
-    <!--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!--<script src='https://kit.fontawesome.com/a076d05399.js'></script>-->
     <script src="Custom/js/mission_jquery.js"></script>
+    <!-- <script src="Custom/js/nav.js"></script>-->
+    <script src="Materialize/js/materialize.min.js"></script>
+    <script src="Custom/js/nav.js"> </script>
+    <script src="Custom/js/slider.js"> </script>
+    <script src="Custom/js/carousel.js"> </script>
+    <script>
+        $(document).ready(function() {
+            $('.dropdown-button').dropdown({
+                constrainWidth: false,
+                hover: false,
+                onclick: true,
+                belowOrigin: true,
+                alignment: 'left'
+            });
+
+            // JAVASCRIPT START HERE //
+
+            /* $('.button-collapse').sideNav({
+                menuWidth: 300,
+                closeOnClick: true,
+                edge: 'right', // <--- CHECK THIS OUT
+            });
+            $('.collapsible').collapsible();
+
+            /*   $('.carousel').carousel();
+               $('.carousel-slider').carousel({
+                   fullWidth: false,
+
+               });
+               setInterval(function() {
+                   $('.carousel').carousel('next');
+               }, 4000);
+*/
+            /* $(document).ready(function() {
+                 $('.slider').slider();
+             });
+
+             /*  $('.one').css({
+                   "left": "2%",
+                   "width": "40%"
+               });
+             $('.two').css({
+                 "left": "55%",
+                 "width": "40%"
+             });*/
+        });
+    </script>
 
 </body></html>
