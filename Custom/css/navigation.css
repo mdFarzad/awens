@@ -1,0 +1,54 @@
+nav {
+    background-color: #234E86 !important;
+
+}
+
+side-nav > li > a {
+    color: white;
+}
+
+.side-nav .user-view .side-nav-logo {
+    color: #D7DA68;
+    margin-top: 0;
+    font-size: 90%;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.brand-logo {
+    padding-top: 5%;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    align-items: center;
+}
+
+
+a.collapsible-header.white-text.side-drop {
+    padding-left: 8%;
+}
+
+.dropdown-content {
+    overflow: visible !important;
+}
+
+#inPerson-us-dropdown2 {
+    background-color: #234E86 !important;
+    margin-left: 100%;
+    margin-top: -18%;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .brand-logo {
+        margin-left: 1%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .brand-logo {
+        margin-left: 5%;
+    }
+}

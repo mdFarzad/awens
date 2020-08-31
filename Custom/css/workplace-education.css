@@ -1,0 +1,49 @@
+.wei-cover {
+    background-image: url(../../images/wei-cover.png);
+    background-size: cover;
+    background-position: top;
+    height: 80%;
+    position: relative;
+}
+
+.wei-logo {
+    position: absolute;
+    top: 85%;
+    left: 80%;
+}
+
+.flow-text {
+    font-size: 120%;
+}
+
+.directors-desk {
+    padding-top: 5%;
+}
+
+.wei-letter {
+    left: 35%;
+}
+
+.pageRedirect {
+    background-color: #234E86 !important;
+    padding: 0%;
+    border-radius: 1rem;
+    width: 30%;
+    margin: 5% 35% 5% 35%;
+}
+
+.pageRedirect:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.pageRedirect:active {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, .2);
+}
+
+.redirect-link,
+.redirect-link:hover,
+.redirect-link:visited {
+    color: white;
+}

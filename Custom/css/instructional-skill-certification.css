@@ -5,10 +5,19 @@
     margin-left: 40%;
 }
 
+.flow-text {
+    font-size: 80%;
+}
+
+.home-testimonials2 {
+    padding-bottom: 10%;
+}
+
 .isc {
     display: grid;
     grid-template-columns: 100%;
     grid-gap: 1em;
+    padding: 0;
 }
 
 .isc-grid {
@@ -42,8 +51,7 @@
 }
 
 .instructional-background {
-    width: 100%;
-    padding: 5% 15% 5% 15%;
+    border-bottom: 1px solid grey;
 }
 
 .normal_background {
@@ -52,7 +60,7 @@
 }
 
 .tstm {
-    height: 500px;
+    height: 100%;
 
 }
 
@@ -165,13 +173,29 @@
     margin-bottom: 20%;
 }
 
+.university-logos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 1em;
+}
+
 @media only screen and (max-width: 768px) {
 
+    .home-testimonials {
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
 
     .isw-logo {
         width: 50%;
         text-align: center;
         margin-left: 25%;
+    }
+
+    .isc-grid {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
     }
 
     .isHeadButton {

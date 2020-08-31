@@ -2,9 +2,6 @@
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     padding: 0;
-    -webkit-box-pack: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-flex: 2;
 }
 
 body {
@@ -13,15 +10,11 @@ body {
 
 .purpose_background {
     width: 100%;
-    /* padding: 100px 150px 150px 150px;*/
     padding: 5%;
     background-color: #EEEEEE;
-
 }
 
 .why-here {
-    text-align: center;
-    position: relative;
     width: 100%;
 
 }
@@ -34,25 +27,31 @@ body {
 .purpose_background2 {
 
     padding: 5%;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
     width: 100%;
+}
+
+blockquote {
+    border-color: midnightblue;
+}
+
+.right-quote {
+    border-left: none;
+    border-right: 5px solid;
+    padding-right: 1.5rem;
 }
 
 .pillars-background {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0%;
+    padding: 5%;
     background-color: #EEEEEE;
 
 }
 
-.pillars-background-pillars {
-    width: 100%;
-    padding: 0px 150px 50px 150px;
-    background-color: #EEEEEE;
 
+.pillars-background-pillars {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .team-title,
@@ -71,7 +70,7 @@ body {
 }
 
 .title,
-.title1,
+.pillars-title,
 .boardOfDirectors,
 .team-title,
 .become-member-title,
@@ -80,13 +79,15 @@ body {
 .lets-connect-title,
 .safety-title,
 .providing-security-title {
-    text-align: center;
     position: relative;
     display: block;
+    font-size: 2.5rem;
 }
+
 
 .title1 {
     padding-top: 10px;
+    font-size: 1.5rem;
 }
 
 .purpose-title {
@@ -94,29 +95,29 @@ body {
     color: #314572;
     padding: 0;
     width: 100%;
-    font-size: 200%;
+    font-size: 2rem;
 }
 
-.title-our-purpose {}
+
 
 .block1 {
     width: 100%;
     float: left;
 }
 
-.block2 {}
 
-.p-head1 {
-    float: left;
+
+/*.p-head1 {
+
     font-size: 200%;
 }
 
 .p-head2 {
-    float: right;
-    text-align: right;
-    margin-top: 0px;
+
+
     font-size: 200%;
-}
+}*/
+
 
 .para1 {
 
@@ -124,23 +125,16 @@ body {
 }
 
 .purpose-para.para2 {
-    text-align: right;
     width: 100%;
-    padding-left: 50%;
+    padding-left: 30%;
 }
 
-.purpose-para {
-    padding: 5%;
-    padding-right: 0;
-    padding-left: 0;
-    padding-top: 0;
-    font-size: 20px;
-    font-weight: bold;
-}
+
 
 
 
 .wBox {
+    padding: 5%;
     background-color: white;
     width: 100%;
     height: 100%;
@@ -148,9 +142,7 @@ body {
 
 .pillar-para1 {
     width: 100%;
-    text-align: center;
     padding: 10%;
-    font-weight: bold;
     padding-top: 0;
     margin-top: 0;
 
@@ -159,8 +151,8 @@ body {
 
 
 .pillar {
-    width: 100%;
-    color: #314572;
+    font-size: 1.5rem;
+    color: black;
     font-weight: bold;
     text-align: center;
     margin-bottom: 1%;
@@ -176,40 +168,33 @@ body {
 }
 
 .different-title {
-    text-align: center;
+
     width: 100%;
-    margin-left: 10%;
+
 }
 
 .diff-title {
-    padding-right: 15%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+
+    padding: 2%;
     color: #314572;
-    width: 100%;
     font-size: 200%;
 }
 
 .diff-content {
     width: 100%;
     padding-bottom: 5%;
+    padding: 5%;
 
 }
 
 .diff-content1 {
+    margin-right: 15%;
 
-    text-align: left;
-    margin-right: 30%;
-    margin-left: 10%;
-    font-weight: bold;
 }
 
 .diff-content2 {
 
-    text-align: right;
     margin-left: 25%;
-    margin-right: 10%;
-    font-weight: bold;
 }
 
 
@@ -249,39 +234,12 @@ body {
 /*small screen code starts here*/
 
 @media only screen and (max-width: 768px) {
-    .navigation-bar {
-        width: 100%;
-        text-align: center;
-        margin-right: 0;
-    }
-
-    .row.options {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .logo {
-        padding: 0;
-        padding-top: 5%;
-        width: 100%;
-        height: 100%;
-    }
 
     p {
         text-align: justify;
         text-justify: inter-word;
     }
 
-    .nav-item,
-    .nav-link {
-        width: 100%;
-        text-align: center;
-        margin-left: 0%;
-    }
 
     .purpose-background {
         padding: 10%;
@@ -295,12 +253,13 @@ body {
     }
 
     .why-here {
-        text-align: center;
-        position: relative;
         width: 100%;
-        font-size: 100%;
     }
 
+    .pillars-background-pillars {
+
+        grid-template-columns: 100%;
+    }
 
     i.fas.fa-map-marker-alt {
         font-size: 36px;
@@ -322,47 +281,27 @@ body {
     }
 
 
-
-    .p-head1,
-    .p-head2 {
-        text-align: center;
-    }
-
-    .purpose-para.para1,
-    .purpose-para.para2 {
-        text-align: center;
-
-    }
-
-
-    .block1,
-    .block2,
     .purpose-para.para1,
     .purpose-para.para2 {
         display: block;
         margin: 0;
-        text-align: center;
         width: 100%;
         padding: 5%;
-
-
     }
 
     .pillar-para1 {
 
         width: 100%;
-        text-align: center;
-        padding: 2%;
+        padding: 5%;
         font-weight: bold;
         padding-top: 0;
         margin-top: 0;
     }
 
     .wBox {
-        width: 200%;
-        padding: 0;
+        width: 100%;
         position: relative;
-        height: 95%;
+        height: 100%;
 
     }
 
@@ -370,26 +309,22 @@ body {
         position: relative;
     }
 
-    .pillars-background {
-        padding-left: 25%;
-        padding-bottom: 0;
-    }
+
 
     .pillars-background-pillars {
         width: 100%;
-        padding-left: 5%;
-        padding-right: 50%;
         background-color: #EEEEEE;
 
     }
 
-    .title-our-purpose {}
+    .diff-content2 {
 
-    .navbar-nav {
-        float: left;
+        margin-left: 10%;
     }
 
-    .our-values-background {
+
+
+    /* .our-values-background {
         background-color: #314572;
         width: 100%;
         color: white;

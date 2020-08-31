@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-size: calc(0.75em + .9vmin);*/
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+
+}
+
+/*Navigation bar CSS start*/
+nav {
+    background-color: #234E86 !important;
+
+}
+
+side-nav > li > a {
+    color: white;
+}
+
+.side-nav .user-view .side-nav-logo {
+    color: #D7DA68;
+    margin-top: 0;
+    font-size: 90%;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.brand-logo {
+    padding-top: 5%;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    align-items: center;
+}
+
+
+a.collapsible-header.white-text.side-drop {
+    padding-left: 10%;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .brand-logo {
+        margin-left: 1%;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .brand-logo {
+        margin-left: 5%;
+    }
+}
+
+
+/*Navigation bar css ends*/
+
+/*Footer CSS start*/
+
+.footer {
+    background-color: #234E86 !important;
+}
+
+.footerHead {
+    padding-top: 2%;
+    font-weight: 100;
+    font-size: 150%;
+    padding-bottom: 0%;
+    letter-spacing: 5px;
+}
+
+.btn.footerButton {
+    width: 15%;
+    margin-top: 2%;
+    color: white;
+    border-radius: 2rem;
+    background-color: #E8CF2D;
+    border-color: #E8CF2D;
+}
+
+.btn.footerButton:hover,
+.btn.footerButton:visited,
+.btn.footerButton:active,
+.btn.footerButton:focus {
+
+    color: #E8CF2D;
+    border: 2px solid;
+    background-color: #234E86;
+    border-color: #E8CF2D;
+    box-shadow: none;
+}
+
+.footerLists {
+    width: 100%;
+    padding: 5%;
+    padding-top: 5%;
+    margin-left: 5%;
+    padding-bottom: 0;
+}
+
+.connect {
+    text-align: center;
+    padding: 2%;
+    display: none;
+}
+
+.contact,
+.contact:hover {
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+.num:hover {
+    text-decoration: underline;
+}
+
+.horizontal {
+    text-align: center;
+    padding-left: 10%;
+    margin-top: 2%;
+}
+
+hr.line {
+    border: 1px solid white;
+    width: 90%;
+}
+
+
+
+
+.fl {
+    padding-bottom: 5%;
+    color: white;
+    font-size: 120%;
+    font-weight: lighter;
+}
+
+.fl:hover {
+    text-decoration-color: white;
+    text-decoration: underline;
+}
+
+
+
+.social {
+    padding-left: 15%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
+.footerBottom {
+    padding: 5%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.copyright {
+    /* padding: 10% 10% 10% 0%;
+    text-align: center;*/
+    color: white;
+    background-color: #286492;
+    padding: 1%;
+}
+
+
+/*New footer code*/
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+    grid-gap: 1em;
+}
+
+.fwrap1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0em;
+    border-right: 1px solid white;
+    height: 100%;
+}
+
+.fwrap3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0em;
+}
+
+.flist {
+    text-align: center;
+}
+
+
+/*Footer css ends*/
+
+.title {
+    font-weight: bolder;
+}
+
+h3,
+h4,
+h5 {
+    letter-spacing: 5px;
+}
+
+.blue-background {
+    background-color: #C5C8FD;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.common-background {
+    padding: 5% 15% 5% 15%;
+}
+
+.common-small-background {
+    padding: 0% 15% 0% 15%;
+}
+
+.btn {
+    text-transform: none;
+}
+
+.btn.custom-button {
+    width: 40%;
+    color: white;
+    border-radius: 2rem;
+    background-color: #E8CF2D;
+    border-color: #E8CF2D;
+
+}
+
+.btn.custom-button:hover,
+.btn.custom-button:visited,
+.btn.custom-button:active,
+.btn.custom-button:focus {
+
+    color: #E8CF2D;
+    border: 2px solid;
+    background-color: #234E86;
+    border-color: #E8CF2D;
+    box-shadow: none;
+}
+
+
+
+.user-view {}
+
+
+.flow-text {
+    font-size: 100%;
+}
+
+@media only screen and (max-width: 1024px) {}
+
+
+@media only screen and (max-width: 768px) {
+
+    .title {
+        font-size: 180%;
+    }
+
+    .btn.footerButton {
+        width: 40%;
+        color: white;
+        border-radius: 2rem;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: #E8CF2D;
+        border-color: #E8CF2D;
+
+    }
+
+    .connect {
+        width: 100%;
+        text-align: center;
+        padding: 2%;
+        display: none;
+    }
+
+
+    .footer-wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 1em;
+
+    }
+
+    .fwrap1,
+    .fwrap2 {
+        text-align: center;
+        padding-right: 10%;
+    }
+
+    .fwrap1 {
+        border-right: none;
+    }
+
+    .fwrap3 {
+        display: grid;
+        grid-template-columns: 34% 33% 33%;
+        grid-gap: 0em;
+        padding-left: 10%;
+    }
+
+}

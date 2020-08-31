@@ -1,14 +1,13 @@
 .our-reach-wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 50%;
+    grid-template-columns: 40% 60%;
     grid-gap: 1em;
 
 }
 
 .reach-tree {
     text-align: right;
-
 }
 
 
@@ -69,53 +68,24 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1em;
+    padding: 5%;
 }
 
-.wei {
-    transition: width 2s, height 2s;
-}
-.wei:hover {
-    width: 120%;
-}
 
 .reaches-heads {
     text-align: center;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
-.wei-logo,
-.iswN-logo,
-.lae-logo,
-.cuba-logo,
-.ean-logo,
-.jamaica-logo,
-.cienfuegos-logo,
-.nds-logo,
-.usw-logo,
-.ceed-logo,
-.wib-logo,
-.bbi-logo,
-.apprentice-ns-logo {
+.reaches-logo {
 
     width: 100%;
     padding: 5%;
 
 }
 
-.wei-para,
-.iswN-para,
-.lae-para,
-.cuba-para,
-.ean-para,
-.jamaica-para,
-.cienfuegos-para,
-.nds-para,
-.wei-bottom,
-.usw-para,
-.ceed-para,
-.wib-para,
-.bbi-para,
-.apprentice-ns-para {
+.reaches-para {
     width: 100%;
     font-size: 70%;
     text-align: center;
@@ -130,7 +100,7 @@
     padding-bottom: 1%;
 }
 
-.wei,
+/*.wei,
 .cienfuegos,
 .ceed,
 .bbi {
@@ -138,10 +108,11 @@
     padding: 5%;
     box-shadow: 1px 1px 1px 1px gray;
 
-}
+}*/
 
 .cienfuegos {
     margin-top: 5%;
+    margin-left: 15%;
     width: 100%;
 
 }
@@ -153,9 +124,8 @@
     display: grid;
     grid-template-columns: 40% 60%;
     grid-gap: 1em;
-    border: 1px solid gray;
     padding: 5%;
-    box-shadow: 1px 1px 1px 1px gray;
+
 }
 
 .lae,
@@ -165,15 +135,13 @@
 .usw,
 .wib,
 .apprentice-ns {
-    width: 70%;
+    width: 100%;
     display: grid;
     grid-template-columns: 100%;
     grid-gap: 1em;
-    border: 1px solid gray;
     padding: 5%;
-    box-shadow: 1px 1px 1px 1px gray;
     margin: 10%;
-    margin-top: 20%;
+    margin-top: 40%;
     margin-bottom: 0;
 
 }
@@ -190,12 +158,12 @@
     padding-bottom: 0;
     width: 100%;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     grid-gap: 1em;
 }
 
 .iswN-desc {
-    padding-top: 30%;
+    padding-top: 5%;
 }
 
 .cuba-desc,
@@ -203,8 +171,8 @@
 .jamaica-desc,
 .usw-desc,
 .apprentice-ns-desc {
-    margin-top: 40%;
-    padding-bottom: 40%;
+    margin-top: 5%;
+    padding-bottom: 5%;
     height: 100%;
 }
 
@@ -237,7 +205,7 @@
 }
 
 .wib {
-    width: 50%;
+    width: 70%;
     margin-top: 5%;
     margin-right: 15%;
     padding-left: 5%;
@@ -251,6 +219,25 @@
 
 @media only screen and (max-width: 768px) {
 
+
+    .wei-logo,
+    .iswN-logo,
+    .lae-logo,
+    .cuba-logo,
+    .ean-logo,
+    .jamaica-logo,
+    .cienfuegos-logo,
+    .nds-logo,
+    .usw-logo,
+    .ceed-logo,
+    .wib-logo,
+    .bbi-logo,
+    .apprentice-ns-logo {
+        align-items: center;
+        width: 80%;
+        padding: 2% 2% 2% 25%;
+
+    }
 
     .reaches {
         margin-left: 0;
