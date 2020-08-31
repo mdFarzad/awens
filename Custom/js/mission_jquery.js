@@ -260,4 +260,29 @@ $(".step4").click(function () {
     return false;
 
 });
+
+$(".mlist").css({
+    "list-style-type": "disc"
+});
 /*Tutoring process button 4 code ends */
+
+/*Navbar*/
+
+/*function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "navbar-nav") {
+        x.className += " responsive";
+    } else {
+        x.className = "navbar-nav";
+    }
+}
+
+/*$(".icon ").click(function () {
+    
+
+$(".navbar-nav li:not(:first-child)").slideToggle();
+$(".navbar-nav li:not(:last-child)").slideToggle();
+
+
+
+});*/
