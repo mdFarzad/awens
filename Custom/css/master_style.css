@@ -136,9 +136,14 @@ hr.line {
 }
 
 
+.flHead {
+    font-size: 140% !important;
+    font-weight: bold !important;
 
+}
 
-.fl {
+.fl,
+.flHead {
     padding-bottom: 5%;
     color: white;
     font-size: 120%;
@@ -216,6 +221,10 @@ h5 {
     background-color: #C5C8FD;
 }
 
+.blue-text {
+    color: navy !important;
+}
+
 .white-background {
     background-color: white;
 }
@@ -227,6 +236,7 @@ h5 {
 .common-small-background {
     padding: 0% 15% 0% 15%;
 }
+
 
 .btn {
     text-transform: none;

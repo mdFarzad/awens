@@ -1,0 +1,222 @@
+.digital-cover {
+    background-image: url(../../images/digital.png);
+    background-size: cover;
+    background-position: right;
+    height: 500px;
+    position: relative;
+}
+
+.digital-para {
+    position: absolute;
+    padding: 5%;
+    top: 30%;
+    left: 60%;
+    right: 2%;
+    background-color: rgba(15, 11, 11, 0.52);
+    border-radius: 2em;
+    font-weight: bold;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-delay: .3s;
+}
+
+.digital-video {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 1em;
+    position: relative;
+}
+
+.digital-bottom-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+}
+
+.bottom-btn {
+    margin-top: 10%;
+    border-radius: 2em;
+}
+
+.bottom-image {
+    width: 70%;
+}
+
+.bottom-para {
+    padding: 5%;
+}
+
+.digital-video {
+    padding: 5%;
+}
+
+.test-knowledge {
+    background-color: #FFC000;
+}
+
+.engage {
+    background-color: #5999D5;
+}
+
+.share-collect {
+    background-color: #EB7B30;
+}
+
+.access {
+    background-color: #A3A4A4;
+}
+
+.online-offline {
+    background-color: #EB7B30;
+}
+
+.test {
+    transition: .4s ease-in;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-delay: .3s;
+    animation-fill-mode: backwards;
+}
+
+.eng {
+    transition: .6s ease-in;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+.share {
+    transition: .8s ease-in;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-delay: .7s;
+    animation-fill-mode: backwards;
+}
+
+.acc {
+    transition: 1s ease-in;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-delay: .9s;
+    animation-fill-mode: backwards;
+}
+
+.onoff {
+    transition: 1.2s ease-in;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-delay: 1.1s;
+    animation-fill-mode: backwards;
+}
+
+.video-side-option {
+    padding-top: 25%;
+}
+
+.video-info {
+    margin-bottom: 10%;
+    position: relative;
+
+}
+
+
+
+.video-points {
+    padding: 2%;
+    border-radius: 2em;
+    transition: .3s;
+}
+
+.video-points:hover,
+.bottom-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+
+}
+
+.video-points:active,
+.bottom-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 5px rgba(0, 0, 0, .2);
+}
+
+.hidden-para {
+    padding: 5%;
+    display: none;
+}
+
+
+#divToShowHide {
+    top: 100px;
+    position: absolute;
+
+}
+
+.BeforeScroll {
+    height: 100px;
+    width: 100%;
+    display: none;
+}
+
+.AfterScroll {
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .digital-cover {
+
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        position: relative;
+    }
+
+    .digital-para {
+
+        padding: 5%;
+        top: 50%;
+        left: 5%;
+        right: 2%;
+
+    }
+
+    .digital-video {
+
+        grid-template-columns: 100%;
+
+    }
+
+    .video-side-option {
+        padding-top: 5%;
+    }
+
+    .digital-bottom-wrapper {
+
+        grid-template-columns: 60% 40%;
+
+    }
+
+    .bottom-para {
+        font-size: 70%;
+    }
+
+    .bottom-image {
+        width: 120%;
+    }
+}

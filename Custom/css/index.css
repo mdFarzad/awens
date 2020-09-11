@@ -1,17 +1,83 @@
+.slider .slides {}
+
+blockquote {
+    border-color: white;
+}
+
+
+
+.slider .slides li img.image-logo {
+    width: 10%;
+    height: 5%;
+    margin-left: 25%;
+    margin-right: 2%;
+
+}
+
+.slider .slides li h5.image-title {
+    margin-top: 4%;
+    font-size: 200%;
+}
+
 .slider .slides .caption.zero {
-    width: 60%;
-    left: 50%;
     margin-top: 5%;
+    width: 100%;
+    padding: 0%;
+    top: 57%;
+    display: inline-flex;
+    background-color: rgba(15, 11, 11, 0.52);
+    position: absolute;
+    text-align: center;
+    left: 0;
+    transition: .4s ease-in;
+
+
 }
 
 .slider .slides .caption.one {
     width: 40%;
     left: 2%;
+    background-color: rgba(15, 11, 11, 0.52);
+    padding: 5%;
+    bottom: 10%;
+    border-radius: 3em;
+    /*clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);*/
 }
 
 .slider .slides .caption.two {
     width: 40%;
-    left: 55%;
+    left: 58% !important;
+    margin-right: 20%;
+    background-color: rgba(15, 11, 11, 0.52);
+    padding: 5%;
+    bottom: 10%;
+    border-radius: 3em;
+    /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);*/
+
+}
+
+.sliderTitle1 {
+    font-size: 150%;
+    color: #E6E56A;
+}
+
+.sliderText1 {
+    font-size: 120%;
+}
+
+.slideButton {
+    border-radius: 1em;
+
+}
+
+
+.slider .slides .caption.two {
+    width: 40%;
+    left: 60%;
+    background-color: rgba(15, 11, 11, 0.52);
+    padding: 5%;
+    bottom: 10%;
+    border-radius: 3em;
 }
 
 .right-quote {
@@ -34,7 +100,7 @@ div.slider {
 
 .image-logo {
     width: 20%;
-    margin-left: 40%;
+    margin-left: 0%;
     margin-bottom: 0%;
     padding-bottom: 0%;
 }
@@ -141,7 +207,10 @@ div.slider {
         margin-top: 0%;
 
     }
+
+
 }
+
 
 
 @media only screen and (max-width: 768px) {
@@ -196,4 +265,55 @@ div.slider {
         grid-gap: 1em;
     }
 
+    .slider .slides .caption.zero {
+        top: 70%;
+    }
+
+    .slider .slides li img.image-logo {
+        width: 55%;
+        height: 5%;
+        margin-left: 5%;
+        margin-right: 2%;
+
+    }
+
+    .slider .slides li h5.image-title {
+
+        font-size: 180%;
+    }
+
+}
+
+
+
+@media only screen and (min-height: 1024px) {
+    .slider .slides .caption.zero {
+
+        top: 65%;
+
+    }
+
+    .slider .slides li img.image-logo {
+        width: 15%;
+        height: 5%;
+        margin-left: 5%;
+        margin-right: 2%;
+
+    }
+}
+
+@media only screen and (min-height: 1200px) {
+    .slider .slides .caption.zero {
+
+        top: 65%;
+
+    }
+
+    .slider .slides li img.image-logo {
+        width: 10%;
+        height: 5%;
+        margin-left: 15%;
+        margin-right: 2%;
+
+    }
 }

@@ -2,6 +2,11 @@
     font-weight: bold;
 }
 
+.title.title-back {
+    padding: 5%;
+    margin-top: 0;
+}
+
 .lets-connect,
 .apprenticeship {
     padding: 15%;
