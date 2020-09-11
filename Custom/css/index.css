@@ -220,8 +220,8 @@ div.slider {
     }
 
     .slider .slides .caption.two {
-        width: 80%;
-        left: 15%;
+        width: 100%;
+        left: 5% !important;
     }
 
     .carousel .carousel-item > img {
