@@ -286,3 +286,4 @@ $(".navbar-nav li:not(:last-child)").slideToggle();
 
 
 });*/
+$("#digVid")[0].autoplay = true;
