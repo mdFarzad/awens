@@ -1,5 +1,8 @@
  $(document).ready(function () {
      $(document).ready(function () {
-         $('.slider').slider();
+         $('.slider').slider({
+             interval: 15000
+         });
      });
+
  });

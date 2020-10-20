@@ -6,6 +6,6 @@
      });
      setInterval(function () {
          $('.carousel').carousel('next');
-     }, 4000);
+     }, 15000);
 
  });
