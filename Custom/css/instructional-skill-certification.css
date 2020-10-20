@@ -1,18 +1,37 @@
 .isw-logo {
     text-align: center;
-    width: 20%;
+    width: 30%;
     margin-right: 0;
-    margin-left: 40%;
+    margin: 0 auto;
 }
 
+.resp-container {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.resp-iframe {
+
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    border: 0;
+    padding: 0 15%;
+}
+
+
 .flow-text {
-    font-size: 80%;
+    font-size: 100%;
 }
 
 .home-testimonials2 {
     padding-bottom: 10%;
 
 }
+
+
 
 .isc {
     display: grid;
@@ -77,6 +96,40 @@
     font-size: 110%;
     font-weight: lighter;
     padding-bottom: 5%;
+}
+
+.process1,
+.process2,
+.process3,
+.process4 {
+    background-color: #234E86;
+    color: white;
+    clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 15% 50%, 0 0);
+    width: 250%;
+    height: 19vh;
+
+}
+
+.process1 {
+    background-color: #234E86;
+}
+
+.process2 {
+    background-color: #2a63af;
+}
+
+.process3 {
+    background-color: #2973d4;
+}
+
+.process4 {
+    background-color: #1c79f2;
+}
+
+.processTitle {
+    font-size: 150%;
+    margin: auto;
+    padding-top: 10%;
 }
 
 .btn-primary:hover,
@@ -194,8 +247,10 @@
     display: grid;
     grid-template-columns: 100%;
     grid-gap: 1em;
-    width: 50%;
+    width: 58%;
     margin-left: 40%;
+    height: 20%;
+
 }
 
 .verticalImages {
@@ -203,7 +258,7 @@
     grid-template-columns: 100%;
     grid-gap: 1em;
     width: 50%;
-    margin-right: 100%;
+
 }
 
 .cg1,
@@ -211,30 +266,136 @@
     width: 100%;
 }
 
-;
+
+.whyWorks-div {
+    width: 100%;
+    background-image: linear-gradient(105deg,
+            rgb(35, 78, 134) 50%,
+            rgba(255, 255, 255, 0) 50%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgb(0, 0, 0, .2);
+    height: 100%;
+    background-position: top;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-gap: 2em;
+
+}
+
+.studies {
+
+    color: #234E86;
+
+}
+
+.studies,
+.works {
+    padding: 5%;
+    width: 100%;
+    margin: auto;
+}
 
 .galleryBckgrnd {
     padding-top: 0%;
-    background-image: linear-gradient(to right bottom, rgba(174, 170, 188, 0.8), rgba(197, 200, 253, 0.8));
+    /*background-image: linear-gradient(to right bottom, rgba(174, 170, 188, 0.8), rgba(197, 200, 253, 0.8));*/
+
 }
 
-@media only screen and (max-width: 768px) {
+.cg {
+    transition: all .2s;
+}
 
-    .home-testimonials {
-        margin-top: 5%;
-        margin-bottom: 0%;
+.cg:hover {
+    outline: none;
+    transform: scale(1.05);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.5);
+    z-index: 20;
+}
+
+.cg:hover .cg:not(:hover) {
+    transform: scale(0.95);
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .process1,
+    .process2,
+    .process3,
+    .process4 {
+        height: 10vh;
+
     }
 
+    .processTitle {
+        padding-top: 15%;
+        font-size: 120%;
+        margin: 0 auto;
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    .process1,
+    .process2,
+    .process3,
+    .process4 {
+        height: 10vh;
+
+    }
+
+    .processTitle {
+        padding-top: 18%;
+        font-size: 100%;
+        margin: 0 auto;
+
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+
+    .title {
+        font-size: 140%;
+    }
+
+
+    .isw-map {
+        width: 100%;
+        padding: 5%;
+    }
+
+
+
     .isw-logo {
-        width: 50%;
+        width: 40%;
         text-align: center;
-        margin-left: 25%;
+        margin: 0 auto;
     }
 
     .isc-grid {
         display: grid;
         grid-template-columns: 100%;
         grid-gap: 1em;
+    }
+
+    .process1,
+    .process2,
+    .process3,
+    .process4 {
+        height: 18vh;
+        clip-path: polygon(50% 15%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+        width: 60% !important;
+    }
+
+    .processTitle {
+        padding-top: 15%;
+        font-size: 120%;
+        margin: 0 auto;
+
     }
 
     .isHeadButton {
@@ -249,5 +410,18 @@
         border-color: #E8CF2D;
         margin-top: 5%;
 
+    }
+
+    .whyWorks-div {
+        width: 100%;
+        background-image: linear-gradient(180deg,
+                rgb(35, 78, 134) 60%,
+                rgba(255, 255, 255, 0) 40%);
+        grid-template-columns: 100%;
+    }
+
+    .studies,
+    .works {
+        margin: 0;
     }
 }

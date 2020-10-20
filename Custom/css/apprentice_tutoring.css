@@ -1,21 +1,50 @@
+.apprenticeship-sub-title {
+    font-size: 150%;
+    font-weight: bold;
+    width: 60%;
+}
+
 .apprenticeship {
     padding-bottom: 5%;
 
 }
 
-.apprenticeship-title {
-    font-size: 180%;
+.title {
+    font-size: 250% !important;
 }
 
-.bc {
+.title,
+.apprenticeship-sub-title {
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-delay: .3s;
+    animation-fill-mode: backwards;
+}
+
+.apprenticeshipTitleDiv {
     background-color: red;
     background-image: url(../../images/apprentice1.png);
     background-position: center;
     background-size: cover;
+
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 .bckgrnd2 {
     padding-top: 0;
+    padding-bottom: 0;
 }
 
 .apprenticeship-div {
@@ -33,7 +62,7 @@
     grid-gap: 0em;
 }
 
-.bc {
+.apprenticeshipTitleDiv {
     grid-column: 1 / span 4;
     grid-row: row -1 / span 2;
     padding: 0;
@@ -89,6 +118,31 @@
     text-align: center;
     padding-bottom: 5%;
     padding-top: 10%;
+}
+
+.step-title {
+    font-weight: bold;
+}
+
+.step.active .step-title {
+    color: #234E86;
+    font-weight: bold !important;
+}
+
+.step-content {
+    background-color: #234E86;
+    padding-bottom: 0;
+    height: 50% !important;
+    overflow: hidden !important;
+}
+
+.step-head,
+.tutoring_list {
+    color: white;
+}
+
+.step.active .step-title::before {
+    background-color: #234E86 !important;
 }
 
 /*.bckgrnd3-button {
@@ -264,6 +318,15 @@ p.step-title {
 }
 
 @media only screen and (max-width: 768px) {
+    .title {
+        font-size: 150% !important;
+    }
+
+    .apprenticeship-sub-title {
+        font-size: 120%;
+        width: 100%;
+    }
+
     .tutoring_process_wrapper {
         display: grid;
         grid-template-columns: 100%;
@@ -273,12 +336,18 @@ p.step-title {
         margin-left: 10%;
     }
 
-    .bc {
+    .apprenticeshipTitleDiv {
         height: 100%;
     }
 
     .apprenticeship-div-textDiv {
-        margin-top: 60%;
+        grid-row: row 1 / span 1;
+
+    }
+
+    .apprenticeship-div-textDiv {
+        margin-top: 30%;
+        width: 80%;
     }
 
     .apprenticeship-div-image {

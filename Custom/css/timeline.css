@@ -1,13 +1,27 @@
+.carousel {
+    height: 800px;
+
+}
+
+.carousel .carousel-item {
+    width: 100%;
+    height: 100%;
+
+}
+
 .paginationBckgrnd {
     padding: 3%;
+    margin: 0 auto;
 }
 
 .pagination li a.yearLink {
     color: #e0e058;
+    padding: 0;
 }
 
 .pagination li a.yearLink1 {
     color: navy;
+    padding: 0;
 }
 
 .headerTimeline {
@@ -145,13 +159,16 @@
 
 }
 
+
+
 @media only screen and (max-width: 768px) {
 
-    .curve {
+
+    /*.curve {
         margin-top: -60%;
         margin-bottom: 75%;
         margin-left: 12%;
-        /* padding-top: 50%; */
+        /* padding-top: 50%; 
         grid-row: 3;
         padding-top: 0%;
         grid-column: 1;
@@ -160,21 +177,43 @@
         bottom: 0px;
         transform: rotate(-35deg);
         z-index: -1;
-    }
+    }*/
 
     .headerTimeline {
         display: inline-flex;
-        margin-left: 0%;
+        margin: 0 auto;
     }
 
     .timelineLogo {
-        width: 40%;
+        width: 20%;
+        height: 50%;
+        margin: auto;
+    }
+
+    .timelineHeader {
+        margin-top: 15%;
+        font-size: 150%;
+        color: #e0e058;
     }
 
     .history {
         padding: 5%;
         margin: 0;
         grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .historyYear._1999 {
+        grid-row: 1;
+        grid-column: 1 / span 2;
+        padding-left: 15%;
+
+    }
+
+    .historyYear._2001,
+    .historyYear._2006 {
+        grid-row: 2;
+        padding-left: 15%;
 
     }
 
@@ -219,7 +258,7 @@
 
     .image3 {
         grid-row: 2;
-        width: 100%;
+        width: 80%;
         grid-column: 1 / span 2;
 
     }
@@ -246,7 +285,7 @@
 
     .image4 {
         grid-row: 5;
-        width: 110%;
+        width: 90%;
         grid-column: 1 / span 2;
         margin-left: 2.5%;
         padding-left: 30%;
@@ -262,4 +301,54 @@
     }
 
 
+}
+
+@media only screen and (min-width: 1024px) {
+    .carousel {
+        height: 1200px;
+    }
+
+    .carousel .carousel-item {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel {
+        height: 1200px;
+    }
+
+    .carousel .carousel-item {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .carousel {
+        height: 1700px;
+    }
+
+    .carousel .carousel-item {
+        width: 100%;
+        height: 100%;
+
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .carousel {
+        height: 1850px;
+    }
+
+    .carousel .carousel-item {
+        width: 100%;
+        height: 100%;
+
+    }
 }

@@ -17,24 +17,34 @@
 }
 
 .directors-desk {
+    font-size: 240%;
     padding-top: 5%;
 }
 
 .wei-letter {
-    left: 35%;
+    margin: auto;
 }
 
 .pageRedirect {
-    background-color: #234E86 !important;
+    background-color: white !important;
     padding: 0%;
     border-radius: 1rem;
     width: 30%;
-    margin: 5% 35% 5% 35%;
+    margin: 5% auto;
 }
 
 .pageRedirect:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+
+}
+
+.pageRedirect:hover {
+    background-color: #234E86 !important;
+}
+
+.pageRedirect:hover .redirect-link {
+    color: white;
 }
 
 .pageRedirect:active {
@@ -45,5 +55,25 @@
 .redirect-link,
 .redirect-link:hover,
 .redirect-link:visited {
+    color: #234E86;
+    text-decoration: underline;
+}
+
+.redirect-link:hover {
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .pageRedirect {
+        width: 60%;
+
+    }
+
+    .wei-letter {
+        width: 70%;
+    }
+
+    .directors-desk {
+        font-size: 150%;
+    }
 }

@@ -6,11 +6,41 @@
 
 }
 
-.reach-tree {
-    text-align: right;
+
+.head-group {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    top: 8rem;
+    left: 8rem;
+    width: 75%;
+    margin: auto;
+
 }
 
+.head-group {
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(to right bottom, rgba(15, 11, 11, 0.52), rgba(255, 119, 48, 0.85));
 
+}
+
+/*.card {
+    transform: skewY(-4deg);
+}
+
+.card > * {
+    transform: skewY(4deg);
+}
+
+.card-action {
+    transform: skewY(-4deg);
+}
+
+.card-action > * {
+    transform: skewY(4deg);
+}*/
 
 .reach-title-head {
     width: 100%;
@@ -27,17 +57,17 @@
 
 .reach-title-para1 {
     font-weight: bold;
-    padding: 5% 0 0 20%;
+    padding: 0 0 0 20%;
 }
 
 .reach-title-para2 {
     font-weight: bold;
-    padding: 2% 0 0 40%;
+    padding: 0 0 0 40%;
 }
 
 
 
-/*body code starts*/
+/*body code starts
 
 .reaches {
     background-color: white;
@@ -60,7 +90,7 @@
     padding-bottom: 0;
 }
 
-.wei,
+
 .cienfuegos,
 .ceed,
 .bbi {
@@ -98,7 +128,7 @@
     grid-column: 1 / span 2;
     grid-row: 2;
     padding-bottom: 1%;
-}
+}*/
 
 /*.wei,
 .cienfuegos,
@@ -110,7 +140,7 @@
 
 }*/
 
-.cienfuegos {
+/*.cienfuegos {
     margin-top: 5%;
     margin-left: 15%;
     width: 100%;
@@ -214,11 +244,167 @@
 }
 
 
+*/
+.grid-background {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+}
+
+.our-reach-header {
+    background-image: url(../../images/community.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+}
+
+.our-community {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 1em;
+}
+
+.community {
+    margin: auto !important;
+}
+
+.card {
+    width: 20% !important;
+}
+
+/*.grid-background:not(first-child) {
+    margin-left: 5% !important;
+}
+.row .col.l3.m6.s12 {
+    margin-left: 5% !important;
+}*/
+
+.community:nth-child(1) {
+    padding-top: 5%;
+}
+
+.col:not(:first-child) {
+    margin-left: 5% !important;
+}
+
+.card-image {
+    width: 40% !important;
+    margin: auto;
+    padding: 5%;
+}
+
+.common-para {
+
+    flex-shrink: 3;
+}
+
+p {
+    flex-shrink: 0;
+}
+
+.modal-trigger {
+    color: #286492 !important;
+    transition: 1s;
+}
+
+.modal-trigger:hover {
+    background-color: #286492 !important;
+    color: white !important;
+    padding: 2%;
+    border-radius: .5rem;
+}
+
+.read-more {
+    height: 20vh;
+    overflow-y: hidden;
+}
+
+.card-title {
+    color: #286492;
+    font-weight: bold !important;
+    font-size: 150% !important;
+}
+
+.image-2 {
+    margin-top: 5%;
+    width: 70% !important;
+}
+
+.image-3 {
+    width: 50% !important;
+}
+
+.image-4 {
+    margin-top: 15%;
+    width: 110% !important;
+}
+
+.im {
+    background-image: url(../../images/our-reach/cienfuegos.png);
+}
+
+.image-5 {
+    margin-top: 15%;
+    width: 100% !important;
+}
+
+.image-6 {
+    margin-top: 5%;
+    width: 80% !important;
+}
+
+.image-6 {
+    margin-top: 0;
+}
+
+.image-7 {
+    width: 100% !important;
+}
+
+.image-8 {
+    width: 55% !important;
+}
+
+.modal-header {
+    padding: 2%;
+    background-color: #286492;
+    color: white;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+}
+
+
+
+
 
 /*body code ends */
+@media only screen and (max-width: 1024px) {
+    .card {
+        width: 49% !important;
+        margin: 1% auto !important;
+    }
+
+    .row .col.l3.m6.s12 {
+        margin: auto;
+    }
+
+    .col:not(:first-child) {
+        margin-left: 1% !important;
+    }
+
+    .card-title {
+        font-size: 140% !important;
+    }
+}
 
 @media only screen and (max-width: 768px) {
 
+
+    .card {
+        width: 49% !important;
+        margin-left: 1% !important;
+    }
 
     .wei-logo,
     .iswN-logo,
@@ -263,6 +449,10 @@
 
         padding: 0;
         text-align: center;
+    }
+
+    .reach-title {
+        font-size: 120%;
     }
 
     .reaches-wrap1,
@@ -325,4 +515,11 @@
     }
 
 
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width: 100% !important;
+        margin: 1% auto !important;
+    }
 }

@@ -1,4 +1,7 @@
-.slider .slides {}
+.slider ul.slides {}
+
+
+.slider ul.slides li img {}
 
 blockquote {
     border-color: white;
@@ -6,24 +9,34 @@ blockquote {
 
 
 
-.slider .slides li img.image-logo {
-    width: 10%;
-    height: 5%;
-    margin-left: 25%;
-    margin-right: 2%;
+.slider .slides li .image-logo {
+    width: 15%;
+    margin-left: 15%;
+    margin-right: 0%;
+}
 
+.slider .slides li .image-logo .zero-logo {
+    height: 95%;
+    bottom: 0;
 }
 
 .slider .slides li h5.image-title {
-    margin-top: 4%;
-    font-size: 200%;
+    margin: auto 0;
+    font-size: 250%;
+}
+
+
+.indicators {
+    display: none;
 }
 
 .slider .slides .caption.zero {
+    margin: 0 auto;
     margin-top: 5%;
     width: 100%;
     padding: 0%;
-    top: 57%;
+    top: 45%;
+    bottom: 0;
     display: inline-flex;
     background-color: rgba(15, 11, 11, 0.52);
     position: absolute;
@@ -32,29 +45,56 @@ blockquote {
     transition: .4s ease-in;
 
 
+
 }
 
 .slider .slides .caption.one {
-    width: 40%;
+    width: 35%;
     left: 2%;
     background-color: rgba(15, 11, 11, 0.52);
     padding: 5%;
     bottom: 10%;
-    border-radius: 3em;
+    /*border-radius: 3em;
     /*clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);*/
+
 }
 
 .slider .slides .caption.two {
-    width: 40%;
+    width: 35%;
     left: 58% !important;
     margin-right: 20%;
     background-color: rgba(15, 11, 11, 0.52);
     padding: 5%;
     bottom: 10%;
-    border-radius: 3em;
+
+    /* border-radius: 3em;
     /* clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);*/
 
 }
+
+.slider .slides .caption {
+    border-bottom-right-radius: 3em;
+    border-top-left-radius: 3em;
+}
+
+
+/*
+.slider .slides .caption {
+    transform: skewX(-7deg) !important;
+}
+
+.slider .slides .caption > * {
+    transform: skewX(7deg) !important;
+}
+
+.slider .slides .caption.zero {
+    border-radius: 0em;
+    transform: skewX(7deg) !important;
+}
+
+.slider .slides .caption.zero > * {
+    transform: skewX(-7deg) !important;
+}*/
 
 .sliderTitle1 {
     font-size: 150%;
@@ -66,19 +106,19 @@ blockquote {
 }
 
 .slideButton {
+    margin-top: 5%;
     border-radius: 1em;
+    background: none;
+    color: #E6E56A;
+    font-weight: bold;
 
 }
 
-
-.slider .slides .caption.two {
-    width: 40%;
-    left: 60%;
-    background-color: rgba(15, 11, 11, 0.52);
-    padding: 5%;
-    bottom: 10%;
-    border-radius: 3em;
+.slideButton:hover {
+    background: #234E86;
 }
+
+
 
 .right-quote {
     border-left: none;
@@ -99,10 +139,7 @@ div.slider {
 
 
 .image-logo {
-    width: 20%;
-    margin-left: 0%;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+    width: 50%;
 }
 
 .title.image-title {
@@ -134,14 +171,15 @@ div.slider {
     margin-bottom: 30%;
 }
 
+
 .home_testimonials {
-    margin-top: 5%;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .home-testimonials,
 .home-testimonials2 {
     padding: 10%;
+
 
 }
 
@@ -215,13 +253,21 @@ div.slider {
 
 @media only screen and (max-width: 768px) {
 
+
     .slider .slides .caption.one {
-        width: 100%;
+        width: 80%;
+
+
     }
 
     .slider .slides .caption.two {
         width: 100%;
-        left: 5% !important;
+        left: 10% !important;
+
+    }
+
+    .sliderText1 {
+        font-size: 110%;
     }
 
     .carousel .carousel-item > img {
@@ -235,13 +281,25 @@ div.slider {
 
     .carousel {
         margin-top: 10%;
-        height: 300px;
+        height: 400px;
     }
 
 
     .carousel .carousel-item {
         width: 110%;
-        height: 400px;
+        height: 600px;
+    }
+
+    .home-testimonials {
+        margin-top: 10%;
+        padding-top: 25%;
+    }
+
+    .home-testimonials-1,
+    .home-testimonials-4,
+    .home-testimonials-3,
+    .home-testimonials-5 {
+        margin-top: 25%;
     }
 
     .slider .slides .caption.one {
@@ -266,26 +324,25 @@ div.slider {
     }
 
     .slider .slides .caption.zero {
-        top: 70%;
+        top: 65%;
     }
 
-    .slider .slides li img.image-logo {
-        width: 55%;
-        height: 5%;
-        margin-left: 5%;
-        margin-right: 2%;
+    .slider .slides li .image-logo {
+        width: 60%;
+        margin: auto;
 
     }
 
     .slider .slides li h5.image-title {
 
-        font-size: 180%;
+        margin: auto 0;
+        font-size: 150%;
     }
 
 }
 
 
-
+/*iPad screen*/
 @media only screen and (min-height: 1024px) {
     .slider .slides .caption.zero {
 
@@ -293,27 +350,29 @@ div.slider {
 
     }
 
-    .slider .slides li img.image-logo {
+    .slider .slides li .image-logo {
         width: 15%;
-        height: 5%;
-        margin-left: 5%;
-        margin-right: 2%;
+        margin: auto;
+        margin-left: 15%;
+        margin-right: 0;
+    }
 
+    .home-testimonials {
+        margin-top: 5%;
+        padding-top: 15%;
     }
 }
 
 @media only screen and (min-height: 1200px) {
     .slider .slides .caption.zero {
 
-        top: 65%;
+        top: 50%;
 
     }
 
-    .slider .slides li img.image-logo {
-        width: 10%;
-        height: 5%;
-        margin-left: 15%;
-        margin-right: 2%;
+    .slider .slides li .image-logo {
+        width: 15%;
+
 
     }
 }

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    /* font-size: calc(0.75em + .9vmin);*/
+    /*font-size: calc(0.65em + .9vmin);*/
 }
 
 body,
@@ -11,6 +11,31 @@ html {
     margin: 0;
     overflow-x: hidden;
 
+}
+
+
+/*Custom scrollbar*/
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /*background: #234E86;*/
+    background-image: linear-gradient(to right bottom, rgb(35, 78, 134), rgba(35, 78, 134, 0.42));
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #D7DA68;
 }
 
 /*Navigation bar CSS start*/
@@ -66,6 +91,10 @@ a.collapsible-header.white-text.side-drop {
 
 .footer {
     background-color: #234E86 !important;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    transition: 4s;
 }
 
 .footerHead {
@@ -211,6 +240,33 @@ hr.line {
     font-weight: bolder;
 }
 
+.test-title {
+    padding: 2%;
+
+    color: #286492;
+    ;
+    /*border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;*/
+}
+
+.test-title-learning {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 2%;
+
+
+}
+
+.test-title {
+    transform: skewX(-10deg) !important;
+}
+
+.test-title > * {
+    transform: skewX(10deg) !important;
+}
+
+
+
 h3,
 h4,
 h5 {
@@ -218,11 +274,18 @@ h5 {
 }
 
 .blue-background {
-    background-color: #C5C8FD;
+    /* background-color: #C5C8FD;*/
+    background-color: #234e86;
+}
+
+.grey-background {
+    /* background-color: #C5C8FD;*/
+    background-color: #EEEEEE;
 }
 
 .blue-text {
-    color: navy !important;
+    color: #234E86 !important;
+
 }
 
 .white-background {
@@ -230,7 +293,7 @@ h5 {
 }
 
 .common-background {
-    padding: 5% 15% 5% 15%;
+    padding: 5% 10% 5% 10%;
 }
 
 .common-small-background {
@@ -240,6 +303,10 @@ h5 {
 
 .btn {
     text-transform: none;
+}
+
+.nav-btn {
+    border-radius: 2em;
 }
 
 .btn.custom-button {
@@ -278,7 +345,12 @@ h5 {
 @media only screen and (max-width: 768px) {
 
     .title {
-        font-size: 180%;
+        font-size: 120%;
+    }
+
+    .test-title-learning {
+        width: 100%;
+        margin-bottom: 5%;
     }
 
     .btn.footerButton {

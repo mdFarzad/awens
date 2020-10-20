@@ -178,6 +178,25 @@
     }
 }
 
+
+.digital-bottom {
+    width: 100%;
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, .9) 0%,
+            rgba(255, 255, 255, .9) 50%,
+            rgba(255, 0, 0, 0) 50%),
+        url(../../images/dose.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgb(0, 0, 0, .2);
+    height: 25rem;
+    background-position: top;
+}
+
+.bottom-para {
+    width: 50%;
+}
+
 @media only screen and (max-width: 768px) {
     .digital-cover {
 
@@ -218,5 +237,11 @@
 
     .bottom-image {
         width: 120%;
+    }
+
+    .digital-bottom {
+
+        height: 100%;
+
     }
 }
